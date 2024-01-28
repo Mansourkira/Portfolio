@@ -6,10 +6,9 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 const TimeLineData = [
 	{
 		year: 2023,
-		text: "Graduated with a degree in Multimedia and Web Development from Iset Djerba"
+		text: "Graduated with a degree in Multimedia and Web Development from Esprit"
 	},
 	{ year: 2022, text: "Began working as a Full stack developer ( Remote )" },
-	{ year: 2022, text: "Began working as a Full stack developer ( Fiverr )" },
 
 	{ year: 2020, text: "Started the engineering program in computer science at Esprit" },
 	{
