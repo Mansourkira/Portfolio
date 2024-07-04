@@ -2,26 +2,48 @@ import { Suspense, useRef } from "react";
 import { domAnimation, LazyMotion, useInView } from "framer-motion";
 import Link from "next/link";
 import useSWR from "swr";
+import { useEffect, useState } from "react";
 import { HeadingDivider, Loader } from "components";
 import { fetcher } from "utils/fetcher";
 import Error from "../../error";
 import { ErrorBoundary } from "react-error-boundary";
 import { Projects } from "../../projects/components/Projects";
 import { SITE_ROUTES } from "../../../constants";
+import axios from "axios";
 
-const url = `${process.env.NEXT_PUBLIC_SANITY_URL}${process.env.NEXT_PUBLIC_SANITY_LATEST_PROJECTS}`;
+const fetchProjects = async () => {
+	try {
+		const response = await axios.get("/projects.json");
+		return response.data;
+	} catch (error) {
+		console.error("Error fetching projects:", error);
+		return [];
+	}
+};
 
 export function ProjectsSection() {
 	const btnRef = useRef(null);
 	const isBtnInView = useInView(btnRef, { once: true });
 
-	const { data, error } = useSWR(url, fetcher);
-	const projects = data?.result;
+	const [projects, setProjects] = useState([]);
+	const [loading, setLoading] = useState(true);
+	const [error, setError] = useState(null);
 
-	if (error && !data) {
-		return null;
-	}
+	useEffect(() => {
+		const getProjects = async () => {
+			try {
+				const data = await fetchProjects();
+				setProjects(data);
+			} catch (err) {
+				setError(err);
+			} finally {
+				setLoading(false);
+			}
+		};
 
+		getProjects();
+	}, []);
+	console.log("projects are  ", projects);
 	return (
 		<LazyMotion features={domAnimation}>
 			<section id="projects" className="section">

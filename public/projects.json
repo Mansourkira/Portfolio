@@ -1,0 +1,24 @@
+[
+	{
+		"title": "Be Bouncy",
+		"description": "Social Media managing",
+		"images": [
+			"https://beta.bebouncy.com/_next/static/images/mainLogo-cf9be65fcabcadc872358ab91bb3151a.png"
+		],
+		"liveUrl": "https://beta.bebouncy.com",
+		"repoUrl": "",
+		"stack": [],
+		"createdAt": "2024-02"
+	},
+	{
+		"title": "Pukla",
+		"description": "One in bio project",
+		"images": [
+			"https://sikka-images.s3.ap-southeast-1.amazonaws.com/pukla/pukla-logo-full-purple.png"
+		],
+		"liveUrl": "https://puk.la/",
+		"repoUrl": "",
+		"stack": [],
+		"createdAt": "2023-10"
+	}
+]
