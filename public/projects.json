@@ -20,5 +20,16 @@
 		"repoUrl": "",
 		"stack": [],
 		"createdAt": "2023-10"
+	},
+	{
+		"title": "Tayar",
+		"description": "a collection of toolkits to be used in web apps",
+		"images": [
+			"https://camo.githubusercontent.com/ef056538b65567a4d81ff388248637bc3bdb40768dc8b0bb361b895abf6c21dc/68747470733a2f2f73696b6b612d696d616765732e73332e61702d736f757468656173742d312e616d617a6f6e6177732e636f6d2f70726f6a656374732f74617961722d726561646d652d6865616465722e6a7067"
+		],
+		"liveUrl": "https://beta-tayar.sikka.io/",
+		"repoUrl": "",
+		"stack": [],
+		"createdAt": "2024-01"
 	}
 ]
