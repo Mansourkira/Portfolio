@@ -7,5 +7,6 @@
 	"stick_around": "Restez pour voir quelques-uns de mes travaux.",
 	"intro": "Je m'appelle Ben Mansour Mansour. Je suis un récent diplômé en ingénierie logicielle de l'Esprit, spécialisé dans le développement Full Stack avec plus de deux ans d'expérience en travail à distance et 8 mois d'expérience en travail sur site à partir du début de 2024.",
 	"about": "Je suis un développeur Full Stack avec plus de 2 ans d'expérience à distance. J'ai une expertise en JavaScript, Next.js, Node.js, TypeScript, GraphQL, React.js, Angular et Spring Boot. J'ai un bilan avéré dans le développement et la maintenance d'applications web évolutives. Je suis un joueur d'équipe collaboratif engagé à fournir des solutions logicielles de haute qualité.",
-	"experience": "Pendant mes années académiques, j'ai perfectionné mes compétences dans diverses technologies, notamment JavaScript, Next.js, Node.js, TypeScript, GraphQL, React.js, Angular et Spring Boot."
+	"academic_skills": "Pendant mes années académiques, j'ai perfectionné mes compétences dans diverses technologies, notamment JavaScript, Next.js, Node.js, TypeScript, GraphQL, React.js, Angular et Spring Boot.",
+	"professional_career": "Dans ma carrière professionnelle, j'ai contribué au développement et à la maintenance d'applications web utilisant Next.js, Node.js, TypeScript, GraphQL et d'autres technologies. J'ai de l'expérience dans la collaboration avec des équipes interfonctionnelles et dans la garantie de la scalabilité et des performances des solutions logicielles."
 }

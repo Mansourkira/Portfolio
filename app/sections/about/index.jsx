@@ -29,16 +29,8 @@ export function AboutSection() {
 						<p>{t("intro")}</p>
 						<p>{t("about")}</p>
 
-						<p className="my-3.5">
-							During my academic years, I honed my skills in various technologies, including
-							JavaScript, Next.js, Node.js, TypeScript, GraphQL, React.js, Angular, and Spring Boot.
-						</p>
-						<p>
-							In my professional career, I have contributed to the development and maintenance of
-							web applications using Next.js, Node.js, TypeScript, GraphQL, and other technologies.
-							I have experience collaborating with cross-functional teams and ensuring the
-							scalability and performance of software solutions.
-						</p>
+						<p className="my-3.5">{t("academic_skills")}</p>
+						<p>{t("professional_career")}</p>
 					</div>
 				</div>
 

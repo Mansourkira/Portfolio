@@ -50,8 +50,8 @@ export function WelcomeSection() {
 						>
 							<p>
 								<Trans i18nKey="greeting">
-									Hi, I'm <mark>Mansour</mark>, a <mark>Full stack</mark> developer with a passion
-									for crafting innovative solutions.
+									Hi, I&apos;m <mark>Mansour</mark>, a <mark>Full stack</mark> developer with a
+									passion for crafting innovative solutions.
 								</Trans>
 							</p>
 						</h1>
