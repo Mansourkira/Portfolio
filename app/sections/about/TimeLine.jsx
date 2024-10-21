@@ -1,36 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
-const TimeLineData = [
-	{
-		year: 2024,
-		text: "Secured a second position as a Full Stack Developer (on-site)"
-	},
-	{
-		year: 2023,
-		text: "Graduated with a degree in Multimedia and Web Development from Esprit"
-	},
-	{
-		year: 2022,
-		text: "Started working remotely and began an official remote job as a Full Stack Developer"
-	},
-	{
-		year: 2020,
-		text: "Started the engineering program in computer science at Esprit"
-	},
-	{
-		year: 2020,
-		text: "Graduated with a degree in Multimedia and Web Development from Iset Djerba"
-	},
-	{
-		year: 2017,
-		text: "Enrolled in the degree program in Multimedia and Web Development at Iset Djerba"
-	}
-];
+import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export function TimeLine() {
 	/// TODO: Add color mode support
+	const { t } = useTranslation();
+	const TimeLineData = t("timeline", { returnObjects: true });
+
 	const colorMode = "dark";
 	const [, setActiveItem] = useState(0);
 	const carouselRef = useRef(null);

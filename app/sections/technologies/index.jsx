@@ -1,18 +1,19 @@
-import { useRef } from "react";
-import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "components";
+import { LazyMotion, domAnimation, useInView } from "framer-motion";
+import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { TECHNOLOGIES } from "../../../constants";
-
 export function TechnologiesSection() {
 	const textRef = useRef(null);
 	const stackRef = useRef(null);
+	const { t } = useTranslation();
 	const isTextInView = useInView(textRef, { once: true });
 	const isStackInView = useInView(stackRef, { once: true });
 
 	return (
 		<LazyMotion features={domAnimation}>
 			<section id="tech" className="section">
-				<HeadingDivider title="Technologies" />
+				<HeadingDivider title={t("Technologies")} />
 				<p
 					ref={textRef}
 					tabIndex="0"
@@ -23,7 +24,7 @@ export function TechnologiesSection() {
 						transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 					}}
 				>
-					I work with the following technologies and tools:
+					{t("i-work-with")}
 				</p>
 
 				{!!TECHNOLOGIES.length && (
