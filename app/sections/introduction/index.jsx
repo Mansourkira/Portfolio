@@ -4,7 +4,7 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { useScrollTo } from "hooks";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { useMediaQuery } from "utils";
 import { WelcomeAnimation } from "./IntroAnimation";
 
@@ -49,10 +49,8 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								<Trans i18nKey="greeting">
-									Hi, I&apos;m <mark>Mansour</mark>, a <mark>Full stack</mark> developer with a
-									passion for crafting innovative solutions.
-								</Trans>
+								Hi, I&apos;m <mark>Mansour</mark>, a <mark>Full stack</mark> developer with a
+								passion for crafting innovative solutions.
 							</p>
 						</h1>
 
