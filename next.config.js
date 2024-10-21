@@ -2,8 +2,10 @@
 const nextConfig = {
 	reactStrictMode: true,
 	swcMinify: true,
-	images: {
-		domains: ["cdn.sanity.io"]
+	i18n: {
+		locales: ["en", "fr", "ar"],
+		defaultLocale: "en",
+		localeDetection: false
 	},
 	webpack(config) {
 		config.module.rules.push({

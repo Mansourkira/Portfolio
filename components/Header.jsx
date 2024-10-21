@@ -1,6 +1,6 @@
 "use client";
 
-import { Logo, Menu, ConnectMedia, MobileMenu, ThemeSwitcher } from "components";
+import { ConnectMedia, Logo, Menu, MobileMenu, ThemeSwitcher } from "components";
 import { useMediaQuery } from "utils";
 
 export function AppHeader() {

@@ -1,11 +1,11 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { LazyMotion, domAnimation, m } from "framer-motion";
 import { useScrollTo } from "hooks";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { BsArrowReturnLeft } from "react-icons/bs";
-import { initial, animate, exit, transition } from "utils";
+import { animate, exit, initial, transition } from "utils";
 import { MENU_OPTIONS, SITE_ROUTES, SITE_STRINGS } from "../constants";
 
 export function Menu({ onClick = () => {} }) {

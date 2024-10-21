@@ -1,9 +1,9 @@
 "use client";
 
-import { useTheme } from "next-themes";
-import { BsMoon, BsSun } from "react-icons/bs";
-import { useEffect, useState } from "react";
 import { domAnimation, LazyMotion, m } from "framer-motion";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+import { BsMoon, BsSun } from "react-icons/bs";
 import { animate, exit, initial, transition } from "utils";
 
 export const ThemeSwitcher = () => {

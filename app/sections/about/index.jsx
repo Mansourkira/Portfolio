@@ -1,13 +1,15 @@
 "use client";
 
-import { useRef } from "react";
-import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { HeadingDivider } from "components";
+import { LazyMotion, domAnimation, useInView } from "framer-motion";
+import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { TimeLine } from "./TimeLine";
 
 export function AboutSection() {
 	const ref = useRef(null);
 	const isInView = useInView(ref, { once: true });
+	const { t } = useTranslation();
 
 	return (
 		<LazyMotion features={domAnimation}>
@@ -24,17 +26,8 @@ export function AboutSection() {
 							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 						}}
 					>
-						<p>
-							My name is Ben Mansour Mansour. I am a recent Software Engineering graduate from
-							Esprit, specializing in Full Stack Development with over two years of remote work
-							experience and 8 months of on-site work experience starting from the beginning of
-							2024.
-						</p>
-						<p>
-							I began my official career in 2022 as a Full Stack Developer, working with Next.js,
-							Node.js, and GraphQL, even before graduating as an engineer in computer science
-							(option TWIN, which is web).
-						</p>
+						<p>{t("intro")}</p>
+						<p>{t("about")}</p>
 
 						<p className="my-3.5">
 							During my academic years, I honed my skills in various technologies, including

@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
-import Link from "next/link";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
-import { WelcomeAnimation } from "./IntroAnimation";
 import { useScrollTo } from "hooks";
+import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+import { Trans, useTranslation } from "react-i18next";
 import { useMediaQuery } from "utils";
+import { WelcomeAnimation } from "./IntroAnimation";
 
 export function WelcomeSection() {
 	const ref = useRef(null);
@@ -13,14 +14,10 @@ export function WelcomeSection() {
 	const isInView = useInView(ref, { once: true });
 	const { scrollToEl } = useScrollTo();
 	const isTabletUp = useMediaQuery("min-width: 768px");
+	const { t } = useTranslation();
 
+	const text = [t("text1"), t("text2"), t("text3"), t("text4")];
 	let [count, setCount] = useState(0);
-	const [text] = useState([
-		"Full Stack Developer with 2+ years of remote experience",
-		"Expertise in JavaScript, Next.js, Node.js, TypeScript, GraphQL, React.js, Angular, and Spring Boot",
-		"Proven track record in developing and maintaining scalable web applications",
-		"Collaborative team player committed to delivering high-quality software solutions"
-	]);
 
 	const onClick = (e) => scrollToEl(e);
 
@@ -52,8 +49,10 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, Im <mark>Mansour</mark>, a <mark>Full stack</mark> developer with a passion for
-								crafting innovative solutions.
+								<Trans i18nKey="greeting">
+									Hi, I'm <mark>Mansour</mark>, a <mark>Full stack</mark> developer with a passion
+									for crafting innovative solutions.
+								</Trans>
 							</p>
 						</h1>
 
@@ -101,7 +100,7 @@ export function WelcomeSection() {
 								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 							}}
 						>
-							Stick around to see some of my work.
+							<p>{t("stick_around")}</p>
 						</p>
 						<div
 							ref={ref}

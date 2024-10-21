@@ -1,15 +1,10 @@
-import { Suspense, useRef } from "react";
-import { domAnimation, LazyMotion, useInView } from "framer-motion";
-import Link from "next/link";
-import useSWR from "swr";
-import { useEffect, useState } from "react";
-import { HeadingDivider, Loader } from "components";
-import { fetcher } from "utils/fetcher";
-import Error from "../../error";
-import { ErrorBoundary } from "react-error-boundary";
-import { Projects } from "../../projects/components/Projects";
-import { SITE_ROUTES } from "../../../constants";
 import axios from "axios";
+import { HeadingDivider, Loader } from "components";
+import { domAnimation, LazyMotion, useInView } from "framer-motion";
+import { Suspense, useEffect, useRef, useState } from "react";
+import { ErrorBoundary } from "react-error-boundary";
+import Error from "../../error";
+import { Projects } from "../../projects/components/Projects";
 
 const fetchProjects = async () => {
 	try {
@@ -43,7 +38,6 @@ export function ProjectsSection() {
 
 		getProjects();
 	}, []);
-	console.log("projects are  ", projects);
 	return (
 		<LazyMotion features={domAnimation}>
 			<section id="projects" className="section">
@@ -62,7 +56,7 @@ export function ProjectsSection() {
 							<Projects projects={projects} />
 						</ErrorBoundary>
 					</Suspense>
-
+					{/* 
 					<Link
 						href={SITE_ROUTES.projects}
 						tabIndex={-1}
@@ -76,7 +70,7 @@ export function ProjectsSection() {
 						}}
 					>
 						<button aria-label="See more projects">More projects</button>
-					</Link>
+					</Link> */}
 				</div>
 			</section>
 		</LazyMotion>

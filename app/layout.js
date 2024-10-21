@@ -1,8 +1,8 @@
-import { Suspense } from "react";
-import { AppHeader, AppFooter, AppMetadata } from "components";
-import Loading from "./loading";
-import "styles/globals.css";
+import { AppFooter, AppHeader, AppMetadata } from "components";
 import { ThemeContext } from "context";
+import { Suspense } from "react";
+import "styles/globals.css";
+import Loading from "./loading";
 
 export const metadata = { ...AppMetadata };
 
