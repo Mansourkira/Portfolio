@@ -115,7 +115,7 @@ export function WelcomeSection() {
 								className="btn"
 								aria-label="Latest projects"
 							>
-								See my latest projects
+								{t("view_projects")}
 							</Link>
 						</div>
 					</div>

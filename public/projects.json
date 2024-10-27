@@ -20,12 +20,12 @@
 		"createdAt": "2023-10"
 	},
 	{
-		"title": "Tayar",
-		"description": "a collection of toolkits to be used in web apps",
-		"images": ["/tayar.png"],
-		"liveUrl": "https://beta-tayar.sikka.io/",
+		"title": "BTOBTURK",
+		"description": "BtoBTurk facilitates global trade by connecting buyers and sellers worldwide, leveraging digital tools for efficient and cost-effective transactions.",
+		"images": ["/btobturk.png"],
+		"liveUrl": "https://btobturk.com/",
 		"repoUrl": "",
 		"stack": [],
-		"createdAt": "2024-01"
+		"createdAt": "2023-02"
 	}
 ]
