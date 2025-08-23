@@ -14,18 +14,18 @@ const containerVariants = {
     hidden: {},
     visible: {
         transition: {
-            staggerChildren: 0.15,
+            staggerChildren: 0.2,
         },
     },
 }
 
 const itemVariants = {
-    hidden: { opacity: 0, y: 8 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
         opacity: 1,
         y: 0,
         transition: {
-            duration: 0.6,
+            duration: 0.8,
             ease: "easeOut" as const,
         },
     },

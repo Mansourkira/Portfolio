@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Globe } from "lucide-react"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 interface TopBarProps {
     messages: {
@@ -10,9 +11,10 @@ interface TopBarProps {
             switch: string
         }
     }
+    onLocaleSwitch?: () => void
 }
 
-export function TopBar({ messages }: TopBarProps) {
+export function TopBar({ messages, onLocaleSwitch }: TopBarProps) {
     return (
         <header className="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="container max-w-5xl mx-auto px-6 py-4">
@@ -21,10 +23,17 @@ export function TopBar({ messages }: TopBarProps) {
                         <Globe className="h-5 w-5" />
                         <span className="font-semibold">Portfolio</span>
                     </div>
-                    <Button variant="outline" size="sm">
-                        <Globe className="h-4 w-4 mr-2" />
-                        {messages.locale.current}
-                    </Button>
+                    <div className="flex items-center space-x-2">
+                        <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={onLocaleSwitch}
+                        >
+                            <Globe className="h-4 w-4 mr-2" />
+                            {messages.locale.current}
+                        </Button>
+                        <ThemeToggle />
+                    </div>
                 </div>
             </div>
         </header>

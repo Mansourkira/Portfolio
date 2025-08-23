@@ -8,9 +8,11 @@ interface TimelineItemProps {
     role: string
     type: string
     logo?: string
+    description?: string
+    url?: string
 }
 
-export function TimelineItem({ year, name, role, type, logo }: TimelineItemProps) {
+export function TimelineItem({ year, name, role, type, logo, description, url }: TimelineItemProps) {
     return (
         <div className="flex gap-6">
             <div className="flex flex-col items-center">
@@ -28,6 +30,16 @@ export function TimelineItem({ year, name, role, type, logo }: TimelineItemProps
                         <div>
                             <h3 className="font-semibold">{name}</h3>
                             <p className="text-sm text-muted-foreground">{role}</p>
+                            {url && url !== "#" && (
+                                <a
+                                    href={url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-xs text-primary hover:underline"
+                                >
+                                    View Project →
+                                </a>
+                            )}
                         </div>
                     </div>
                     <div className="text-right">
@@ -35,6 +47,9 @@ export function TimelineItem({ year, name, role, type, logo }: TimelineItemProps
                         <p className="text-xs text-muted-foreground">{type}</p>
                     </div>
                 </div>
+                {description && (
+                    <p className="text-sm text-muted-foreground mt-3 leading-relaxed">{description}</p>
+                )}
             </div>
         </div>
     )
