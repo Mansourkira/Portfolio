@@ -6,7 +6,6 @@ import { Section } from "@/components/section"
 import { TimelineItem } from "@/components/timeline-item"
 import { ExperienceItem } from "@/components/experience-item"
 import { EducationItem } from "@/components/education-item"
-import { LanguagesSection } from "@/components/languages-section"
 import { SocialRow } from "@/components/social-row"
 import { ResumeDownload } from "@/components/resume-download"
 import { Separator } from "@/components/ui/separator"
@@ -15,7 +14,7 @@ import { useLocale } from "@/components/hooks/use-locale"
 import messages from "@/lib/messages.json"
 
 export default function HomePage() {
-  const { locale, switchLocale } = useLocale()
+  const { locale, switchLocale, isAnimating } = useLocale()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -41,21 +40,25 @@ export default function HomePage() {
         <Section className="space-y-8">
           <div className="grid md:grid-cols-[1fr_300px] gap-8 items-start">
             <div className="space-y-6">
-              <AnimatedText delay={0.2}>
+              <AnimatedText delay={0.2} isAnimating={isAnimating}>
                 <h1 className="text-2xl font-semibold">{t.about.title}</h1>
               </AnimatedText>
-              <AnimatedText delay={0.4}>
+              <AnimatedText delay={0.4} isAnimating={isAnimating}>
                 <p className="text-[17px] leading-relaxed tracking-tight text-muted-foreground">{t.about.body}</p>
               </AnimatedText>
             </div>
-            <div className="space-y-4">
-              <AnimatedText delay={0.6}>
+            <div className="space-y-6">
+              <AnimatedText delay={0.6} isAnimating={isAnimating}>
                 <div className="text-right space-y-2">
-                  <p className="text-sm font-medium text-muted-foreground">{t.about.nameTag}</p>
-                  <p className="text-xs text-muted-foreground">{t.about.location}</p>
-                  <p className="text-xs text-muted-foreground">{t.about.phone}</p>
                   <p className="text-xs text-muted-foreground">{t.about.email}</p>
                 </div>
+              </AnimatedText>
+              <AnimatedText delay={0.8} isAnimating={isAnimating}>
+                <ResumeDownload
+                  title={t.resume.title}
+                  description={t.resume.description}
+                  button={t.resume.button}
+                />
               </AnimatedText>
             </div>
           </div>
@@ -65,7 +68,7 @@ export default function HomePage() {
 
         {/* Experience Section */}
         <Section className="space-y-8">
-          <AnimatedText delay={0.2}>
+          <AnimatedText delay={0.2} isAnimating={isAnimating}>
             <h2 className="text-2xl font-semibold">{t.experience.title}</h2>
           </AnimatedText>
           <div className="space-y-6">
@@ -89,7 +92,7 @@ export default function HomePage() {
 
         {/* Projects Section */}
         <Section className="space-y-8">
-          <AnimatedText delay={0.2}>
+          <AnimatedText delay={0.2} isAnimating={isAnimating}>
             <h2 className="text-2xl font-semibold">{t.projects.title}</h2>
           </AnimatedText>
           <div className="space-y-8">
@@ -112,7 +115,7 @@ export default function HomePage() {
 
         {/* Education Section */}
         <Section className="space-y-8">
-          <AnimatedText delay={0.2}>
+          <AnimatedText delay={0.2} isAnimating={isAnimating}>
             <h2 className="text-2xl font-semibold">{t.education.title}</h2>
           </AnimatedText>
           <div className="space-y-6">
@@ -131,30 +134,12 @@ export default function HomePage() {
 
         <Separator />
 
-        {/* Languages Section */}
-        <Section className="space-y-8">
-          <div className="grid md:grid-cols-2 gap-12">
-            <AnimatedText delay={0.2}>
-              <LanguagesSection title={t.languages.title} items={t.languages.items} />
-            </AnimatedText>
-            <AnimatedText delay={0.4}>
-              <ResumeDownload
-                title={t.resume.title}
-                description={t.resume.description}
-                button={t.resume.button}
-              />
-            </AnimatedText>
-          </div>
-        </Section>
-
-        <Separator />
-
         {/* Contact Section */}
         <Section className="space-y-8 text-center">
-          <AnimatedText delay={0.2}>
+          <AnimatedText delay={0.2} isAnimating={isAnimating}>
             <h2 className="text-2xl font-semibold">{t.contact.title}</h2>
           </AnimatedText>
-          <AnimatedText delay={0.4}>
+          <AnimatedText delay={0.4} isAnimating={isAnimating}>
             <SocialRow links={t.contact.links} />
           </AnimatedText>
         </Section>

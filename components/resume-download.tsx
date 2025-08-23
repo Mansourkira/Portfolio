@@ -27,18 +27,18 @@ export function ResumeDownload({ title, description, button }: ResumeDownloadPro
     }
 
     return (
-        <div className="text-center space-y-4 p-8 bg-muted/30 rounded-2xl border-2 border-dashed border-muted-foreground/20">
-            <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                <FileText className="w-8 h-8 text-primary" />
+        <div className="text-center space-y-3 p-6 bg-muted/30 rounded-xl border-2 border-dashed border-muted-foreground/20 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
+            <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
+                <FileText className="w-6 h-6 text-primary" />
             </div>
             <div className="space-y-2">
-                <h3 className="text-xl font-semibold">{title}</h3>
-                <p className="text-muted-foreground max-w-md mx-auto">{description}</p>
+                <h3 className="text-lg font-semibold">{title}</h3>
+                <p className="text-sm text-muted-foreground max-w-xs mx-auto">{description}</p>
             </div>
             <Button
                 onClick={handleDownload}
-                size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                size="default"
+                className="bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-transform duration-200"
             >
                 <Download className="w-4 h-4 mr-2" />
                 {button}
