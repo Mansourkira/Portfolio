@@ -4,18 +4,27 @@ import { useEffect, useState } from "react"
 import { TopBar } from "@/components/top-bar"
 import { Section } from "@/components/section"
 import { TimelineItem } from "@/components/timeline-item"
+import { ExperienceItem } from "@/components/experience-item"
+import { EducationItem } from "@/components/education-item"
+import { LanguagesSection } from "@/components/languages-section"
 import { SocialRow } from "@/components/social-row"
+import { ResumeDownload } from "@/components/resume-download"
 import { Separator } from "@/components/ui/separator"
+import { AnimatedText } from "@/components/animated-text"
 import { useLocale } from "@/components/hooks/use-locale"
 import messages from "@/lib/messages.json"
 
 export default function HomePage() {
-  const { locale } = useLocale()
+  const { locale, switchLocale } = useLocale()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
     setMounted(true)
   }, [])
+
+  const handleLocaleSwitch = () => {
+    switchLocale(locale === "en" ? "fr" : "en")
+  }
 
   if (!mounted) {
     return null
@@ -25,19 +34,54 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-background">
-      <TopBar messages={t} />
+      <TopBar messages={t} onLocaleSwitch={handleLocaleSwitch} />
 
       <main className="container max-w-5xl mx-auto px-6 py-16 space-y-24">
         {/* About Section */}
         <Section className="space-y-8">
           <div className="grid md:grid-cols-[1fr_300px] gap-8 items-start">
             <div className="space-y-6">
-              <h1 className="text-2xl font-semibold">{t.about.title}</h1>
-              <p className="text-[17px] leading-relaxed tracking-tight text-muted-foreground">{t.about.body}</p>
+              <AnimatedText delay={0.2}>
+                <h1 className="text-2xl font-semibold">{t.about.title}</h1>
+              </AnimatedText>
+              <AnimatedText delay={0.4}>
+                <p className="text-[17px] leading-relaxed tracking-tight text-muted-foreground">{t.about.body}</p>
+              </AnimatedText>
             </div>
-            <div className="md:text-right">
-              <p className="text-sm font-medium text-muted-foreground">{t.about.nameTag}</p>
+            <div className="space-y-4">
+              <AnimatedText delay={0.6}>
+                <div className="text-right space-y-2">
+                  <p className="text-sm font-medium text-muted-foreground">{t.about.nameTag}</p>
+                  <p className="text-xs text-muted-foreground">{t.about.location}</p>
+                  <p className="text-xs text-muted-foreground">{t.about.phone}</p>
+                  <p className="text-xs text-muted-foreground">{t.about.email}</p>
+                </div>
+              </AnimatedText>
             </div>
+          </div>
+        </Section>
+
+        <Separator />
+
+        {/* Experience Section */}
+        <Section className="space-y-8">
+          <AnimatedText delay={0.2}>
+            <h2 className="text-2xl font-semibold">{t.experience.title}</h2>
+          </AnimatedText>
+          <div className="space-y-6">
+            {t.experience.items.map((experience, index) => (
+              <ExperienceItem
+                key={index}
+                year={experience.year}
+                name={experience.name}
+                company={experience.company}
+                role={experience.role}
+                type={experience.type}
+                location={experience.location}
+                logo={experience.logo}
+                description={experience.description}
+              />
+            ))}
           </div>
         </Section>
 
@@ -45,7 +89,9 @@ export default function HomePage() {
 
         {/* Projects Section */}
         <Section className="space-y-8">
-          <h2 className="text-2xl font-semibold">{t.projects.title}</h2>
+          <AnimatedText delay={0.2}>
+            <h2 className="text-2xl font-semibold">{t.projects.title}</h2>
+          </AnimatedText>
           <div className="space-y-8">
             {t.projects.items.map((project, index: number) => (
               <TimelineItem
@@ -55,6 +101,8 @@ export default function HomePage() {
                 role={project.role}
                 type={project.type}
                 logo={project.logo}
+                description={project.description}
+                url={project.url}
               />
             ))}
           </div>
@@ -62,10 +110,53 @@ export default function HomePage() {
 
         <Separator />
 
+        {/* Education Section */}
+        <Section className="space-y-8">
+          <AnimatedText delay={0.2}>
+            <h2 className="text-2xl font-semibold">{t.education.title}</h2>
+          </AnimatedText>
+          <div className="space-y-6">
+            {t.education.items.map((education, index) => (
+              <EducationItem
+                key={index}
+                year={education.year}
+                name={education.name}
+                institution={education.institution}
+                location={education.location}
+                logo={education.logo}
+              />
+            ))}
+          </div>
+        </Section>
+
+        <Separator />
+
+        {/* Languages Section */}
+        <Section className="space-y-8">
+          <div className="grid md:grid-cols-2 gap-12">
+            <AnimatedText delay={0.2}>
+              <LanguagesSection title={t.languages.title} items={t.languages.items} />
+            </AnimatedText>
+            <AnimatedText delay={0.4}>
+              <ResumeDownload
+                title={t.resume.title}
+                description={t.resume.description}
+                button={t.resume.button}
+              />
+            </AnimatedText>
+          </div>
+        </Section>
+
+        <Separator />
+
         {/* Contact Section */}
         <Section className="space-y-8 text-center">
-          <h2 className="text-2xl font-semibold">{t.contact.title}</h2>
-          <SocialRow links={t.contact.links} />
+          <AnimatedText delay={0.2}>
+            <h2 className="text-2xl font-semibold">{t.contact.title}</h2>
+          </AnimatedText>
+          <AnimatedText delay={0.4}>
+            <SocialRow links={t.contact.links} />
+          </AnimatedText>
         </Section>
       </main>
     </div>
