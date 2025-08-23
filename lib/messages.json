@@ -6,32 +6,99 @@
         },
         "about": {
             "title": "About Me",
-            "body": "I'm a passionate developer with experience in modern web technologies. I love creating beautiful, functional applications that solve real-world problems.",
-            "nameTag": "Developer & Designer"
+            "body": "Full Stack Developer with 3+ years of experience specializing in React, Tailwind CSS, TypeScript, Next.js, MongoDB, and Supabase. Skilled in creating scalable web applications and contributing to both frontend and backend in remote or on-site work.",
+            "nameTag": "Full Stack Developer",
+            "location": "Tunis, El Aouina, 4230 Tunisia",
+            "phone": "+216 29 598 701",
+            "email": "mansour.benmansour@esprit.tn"
+        },
+        "experience": {
+            "title": "Professional Experience",
+            "items": [
+                {
+                    "year": "2025",
+                    "name": "Technical Lead (ERP Development)",
+                    "company": "Admission",
+                    "role": "Technical Lead",
+                    "type": "Full-time",
+                    "location": "Tunis, Tunisia",
+                    "logo": "🚀",
+                    "description": "Design and implementation of ERP architecture using Next.js, Node.js and PostgreSQL, with CI/CD pipeline setup. Leading a development team (code reviews, task prioritization) and mentoring juniors. Managing client demonstrations and technical presentations, maintaining GitHub workflows."
+                },
+                {
+                    "year": "2024-2025",
+                    "name": "Full Stack Developer",
+                    "company": "BeBouncy",
+                    "role": "Full Stack Developer",
+                    "type": "Full-time",
+                    "location": "La Marsa, Tunisia",
+                    "logo": "💻",
+                    "description": "Technical leadership on backend (Node.js) and implementation of business features. Frontend development with Next.js and state management with Redux. Deployment via Docker and CI/CD process automation."
+                },
+                {
+                    "year": "2022-Present",
+                    "name": "Full Stack Developer",
+                    "company": "Sikka Software",
+                    "role": "Full Stack Developer",
+                    "type": "Remote",
+                    "location": "Remote",
+                    "logo": "🌐",
+                    "description": "Application development with Next.js, Node.js (TypeScript), GraphQL and Supabase. Design of scalable and high-performance features. Contribution to 12+ projects using GraphQL, Shadcn and Supabase."
+                }
+            ]
         },
         "projects": {
             "title": "Projects",
             "items": [
                 {
                     "year": "2024",
-                    "name": "Portfolio Website",
-                    "role": "Full Stack Developer",
-                    "type": "Personal Project",
-                    "logo": "🎨"
+                    "name": "LinkTrack",
+                    "role": "Open Source Platform",
+                    "type": "Link Shortening & Analytics",
+                    "logo": "🔗",
+                    "description": "Open source platform for creating custom short links and analyzing engagement, demonstrating professional quality work. Technologies: Next.js 15, Supabase, shadcn/ui; responsive interface, secure authentication and optimized performance. Includes usage statistics, role-based access and subscription plans; deployed on linktrack.app.",
+                    "url": "https://linktrack.app"
                 },
                 {
-                    "year": "2023",
-                    "name": "E-commerce Platform",
-                    "role": "Frontend Developer",
-                    "type": "Client Project",
-                    "logo": "🛒"
+                    "year": "2024",
+                    "name": "Payment Gateway",
+                    "role": "Multi-Payment Integration",
+                    "type": "Payment Solution",
+                    "logo": "💳",
+                    "description": "Complete development of a robust solution for one-time and recurring payments. Designed frontend with Next.js and backend with Node.js for a smooth user experience. Integrated PayPal and Stripe to expand payment options.",
+                    "url": "#"
+                }
+            ]
+        },
+        "education": {
+            "title": "Education",
+            "items": [
+                {
+                    "year": "2020-2023",
+                    "name": "Computer Engineering Diploma (TWIN)",
+                    "institution": "Esprit",
+                    "location": "Ariana - El Ghazela",
+                    "logo": "🎓"
                 },
                 {
-                    "year": "2022",
-                    "name": "Task Management App",
-                    "role": "Backend Developer",
-                    "type": "Open Source",
-                    "logo": "✅"
+                    "year": "2017-2020",
+                    "name": "Multimedia and Web Development Diploma",
+                    "institution": "Higher Institute of Technological Studies of Djerba",
+                    "location": "ISET Djerba - Midoun",
+                    "logo": "📚"
+                }
+            ]
+        },
+        "languages": {
+            "title": "Languages",
+            "items": [
+                {
+                    "name": "English",
+                    "level": "B2"
+                },
+                {
+                    "name": "French",
+                    "level": "B2"
                 }
             ]
         },
@@ -40,20 +107,30 @@
             "links": [
                 {
                     "name": "GitHub",
-                    "url": "https://github.com",
+                    "url": "https://github.com/Mansourkira",
                     "icon": "🐙"
                 },
                 {
                     "name": "LinkedIn",
-                    "url": "https://linkedin.com",
+                    "url": "https://linkedin.com/in/ben-mansour-mansour-986873186",
                     "icon": "💼"
                 },
                 {
                     "name": "Email",
-                    "url": "mailto:hello@example.com",
+                    "url": "mailto:mansour.benmansour@esprit.tn",
                     "icon": "✉️"
+                },
+                {
+                    "name": "Portfolio",
+                    "url": "https://maaansour.vercel.app",
+                    "icon": "🌐"
                 }
             ]
+        },
+        "resume": {
+            "title": "Download Resume",
+            "description": "Get my complete professional experience and skills",
+            "button": "Download PDF"
         }
     },
     "fr": {
@@ -63,32 +140,99 @@
         },
         "about": {
             "title": "À propos de moi",
-            "body": "Je suis un développeur passionné avec de l'expérience dans les technologies web modernes. J'aime créer des applications belles et fonctionnelles qui résolvent des problèmes réels.",
-            "nameTag": "Développeur & Designer"
+            "body": "Développeur Full Stack avec 3+ ans d'expérience spécialisé dans React, Tailwind CSS, TypeScript, Next.js, MongoDB et Supabase. Compétence dans la création d'applications web évolutives et contribution aux parties frontend et backend en télétravail ou sur site.",
+            "nameTag": "Développeur Full Stack",
+            "location": "Tunis, El Aouina, 4230 Tunisie",
+            "phone": "+216 29 598 701",
+            "email": "mansour.benmansour@esprit.tn"
+        },
+        "experience": {
+            "title": "Expérience Professionnelle",
+            "items": [
+                {
+                    "year": "2025",
+                    "name": "Technical Lead (Développement ERP)",
+                    "company": "Admission",
+                    "role": "Technical Lead",
+                    "type": "Temps plein",
+                    "location": "Tunis, Tunisie",
+                    "logo": "🚀",
+                    "description": "Conception et implémentation de l'architecture ERP utilisant Next.js, Node.js et PostgreSQL, avec mise en place des pipelines CI/CD. Encadrement d'une équipe de développement (revues de code, priorisation des tâches) et mentorat des juniors. Gestion des démonstrations clients et des présentations techniques, maintenance des workflows GitHub."
+                },
+                {
+                    "year": "2024-2025",
+                    "name": "Développeur Full Stack",
+                    "company": "BeBouncy",
+                    "role": "Développeur Full Stack",
+                    "type": "Temps plein",
+                    "location": "La Marsa, Tunisie",
+                    "logo": "💻",
+                    "description": "Leadership technique sur le backend (Node.js) et implémentation de fonctionnalités métiers. Développement frontend avec Next.js et gestion d'état avec Redux. Déploiement via Docker et automatisation des processus CI/CD."
+                },
+                {
+                    "year": "2022-Présent",
+                    "name": "Développeur Full Stack",
+                    "company": "Sikka Software",
+                    "role": "Développeur Full Stack",
+                    "type": "Télétravail",
+                    "location": "Télétravail",
+                    "logo": "🌐",
+                    "description": "Développement d'applications avec Next.js, Node.js (TypeScript), GraphQL et Supabase. Conception de fonctionnalités évolutives et haute performance. Contribution à 12+ projets utilisant GraphQL, Shadcn et Supabase."
+                }
+            ]
         },
         "projects": {
             "title": "Projets",
             "items": [
                 {
                     "year": "2024",
-                    "name": "Site Portfolio",
-                    "role": "Développeur Full Stack",
-                    "type": "Projet Personnel",
-                    "logo": "🎨"
+                    "name": "LinkTrack",
+                    "role": "Plateforme Open Source",
+                    "type": "Raccourcissement de Liens & Analyse",
+                    "logo": "🔗",
+                    "description": "Plateforme open source pour créer des liens courts personnalisés et analyser l'engagement, démontrant un travail de qualité professionnelle. Technologies : Next.js 15, Supabase, shadcn/ui ; interface responsive, authentification sécurisée et performances optimisées. Inclut statistiques d'utilisation, accès par rôles et formules d'abonnement ; déployée sur linktrack.app.",
+                    "url": "https://linktrack.app"
                 },
                 {
-                    "year": "2023",
-                    "name": "Plateforme E-commerce",
-                    "role": "Développeur Frontend",
-                    "type": "Projet Client",
-                    "logo": "🛒"
+                    "year": "2024",
+                    "name": "Passerelle de Paiement",
+                    "role": "Intégration Multi-Paiements",
+                    "type": "Solution de Paiement",
+                    "logo": "💳",
+                    "description": "Développement complet d'une solution robuste pour paiements uniques et récurrents. Conçu le frontend avec Next.js et le backend avec Node.js pour une expérience utilisateur fluide. Intégré PayPal et Stripe pour élargir les options de paiement.",
+                    "url": "#"
+                }
+            ]
+        },
+        "education": {
+            "title": "Formation",
+            "items": [
+                {
+                    "year": "2020-2023",
+                    "name": "Diplôme d'Ingénieur en Informatique (TWIN)",
+                    "institution": "Esprit",
+                    "location": "Ariana - El Ghazela",
+                    "logo": "🎓"
                 },
                 {
-                    "year": "2022",
-                    "name": "App de Gestion de Tâches",
-                    "role": "Développeur Backend",
-                    "type": "Open Source",
-                    "logo": "✅"
+                    "year": "2017-2020",
+                    "name": "Diplôme en Développement Multimédia et Web",
+                    "institution": "Institut Supérieur des Études Technologiques de Djerba",
+                    "location": "ISET Djerba - Midoun",
+                    "logo": "📚"
+                }
+            ]
+        },
+        "languages": {
+            "title": "Langues",
+            "items": [
+                {
+                    "name": "Anglais",
+                    "level": "B2"
+                },
+                {
+                    "name": "Français",
+                    "level": "B2"
                 }
             ]
         },
@@ -97,20 +241,30 @@
             "links": [
                 {
                     "name": "GitHub",
-                    "url": "https://github.com",
+                    "url": "https://github.com/Mansourkira",
                     "icon": "🐙"
                 },
                 {
                     "name": "LinkedIn",
-                    "url": "https://linkedin.com",
+                    "url": "https://linkedin.com/in/ben-mansour-mansour-986873186",
                     "icon": "💼"
                 },
                 {
                     "name": "Email",
-                    "url": "mailto:hello@example.com",
+                    "url": "mailto:mansour.benmansour@esprit.tn",
                     "icon": "✉️"
+                },
+                {
+                    "name": "Portfolio",
+                    "url": "https://maaansour.vercel.app",
+                    "icon": "🌐"
                 }
             ]
+        },
+        "resume": {
+            "title": "Télécharger le CV",
+            "description": "Obtenez mon expérience professionnelle complète et mes compétences",
+            "button": "Télécharger PDF"
         }
     }
 }
