@@ -24,7 +24,7 @@ export function ExperienceItem({
     description
 }: ExperienceItemProps) {
     return (
-        <Card className="p-6 border-l-4 border-l-primary/20 hover:border-l-primary/40 transition-all duration-300 hover:shadow-lg">
+        <Card className="p-6 border-l-4 border-l-primary/20 hover:border-l-primary/40 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-1 hover:scale-[1.02] cursor-pointer">
             <CardContent className="p-0">
                 <div className="flex items-start gap-4">
                     <div className="w-12 h-12 bg-muted rounded-lg flex items-center justify-center text-xl shrink-0">

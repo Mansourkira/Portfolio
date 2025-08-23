@@ -14,16 +14,16 @@ interface TimelineItemProps {
 
 export function TimelineItem({ year, name, role, type, logo, description, url }: TimelineItemProps) {
     return (
-        <div className="flex gap-6">
+        <div className="flex gap-6 group">
             <div className="flex flex-col items-center">
-                <div className="w-3 h-3 bg-primary rounded-full"></div>
+                <div className="w-3 h-3 bg-primary rounded-full group-hover:scale-125 transition-transform duration-300"></div>
                 <div className="w-0.5 h-full bg-border mt-2"></div>
             </div>
-            <div className="flex-1 pb-6">
+            <div className="flex-1 pb-6 hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 cursor-pointer">
                 <div className="flex items-start justify-between mb-2">
                     <div className="flex items-center gap-3">
                         {logo && (
-                            <div className="w-8 h-8 bg-muted rounded flex items-center justify-center">
+                            <div className="w-8 h-8 bg-muted rounded flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                                 <span className="text-xs font-medium">{logo}</span>
                             </div>
                         )}
