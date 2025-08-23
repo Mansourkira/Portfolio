@@ -58,6 +58,7 @@ export default function HomePage() {
                   title={t.resume.title}
                   description={t.resume.description}
                   button={t.resume.button}
+                  locale={locale}
                 />
               </AnimatedText>
             </div>

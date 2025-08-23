@@ -7,17 +7,22 @@ interface ResumeDownloadProps {
     title: string
     description: string
     button: string
+    locale: string
 }
 
-export function ResumeDownload({ title, description, button }: ResumeDownloadProps) {
+export function ResumeDownload({ title, description, button, locale }: ResumeDownloadProps) {
     const handleDownload = () => {
-        // You can replace this URL with your actual resume PDF
-        const resumeUrl = "/resume.pdf"
+        // Determine which PDF to download based on current locale
+        const resumeUrl = locale === "fr"
+            ? "/FR_Mansour_FullStackDeveloper.pdf"
+            : "/EN_Mansour_FullStackDeveloper.pdf"
 
         // Create a temporary link element
         const link = document.createElement("a")
         link.href = resumeUrl
-        link.download = "Ben-Mansour-Mansour-Resume.pdf"
+        link.download = locale === "fr"
+            ? "Mansour_Developpeur_FullStack_CV.pdf"
+            : "Mansour_FullStack_Developer_Resume.pdf"
         link.target = "_blank"
 
         // Append to body, click, and remove
