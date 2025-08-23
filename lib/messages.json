@@ -1,0 +1,116 @@
+{
+    "en": {
+        "locale": {
+            "current": "EN",
+            "switch": "Switch to French"
+        },
+        "about": {
+            "title": "About Me",
+            "body": "I'm a passionate developer with experience in modern web technologies. I love creating beautiful, functional applications that solve real-world problems.",
+            "nameTag": "Developer & Designer"
+        },
+        "projects": {
+            "title": "Projects",
+            "items": [
+                {
+                    "year": "2024",
+                    "name": "Portfolio Website",
+                    "role": "Full Stack Developer",
+                    "type": "Personal Project",
+                    "logo": "🎨"
+                },
+                {
+                    "year": "2023",
+                    "name": "E-commerce Platform",
+                    "role": "Frontend Developer",
+                    "type": "Client Project",
+                    "logo": "🛒"
+                },
+                {
+                    "year": "2022",
+                    "name": "Task Management App",
+                    "role": "Backend Developer",
+                    "type": "Open Source",
+                    "logo": "✅"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Get In Touch",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com",
+                    "icon": "🐙"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://linkedin.com",
+                    "icon": "💼"
+                },
+                {
+                    "name": "Email",
+                    "url": "mailto:hello@example.com",
+                    "icon": "✉️"
+                }
+            ]
+        }
+    },
+    "fr": {
+        "locale": {
+            "current": "FR",
+            "switch": "Passer en anglais"
+        },
+        "about": {
+            "title": "À propos de moi",
+            "body": "Je suis un développeur passionné avec de l'expérience dans les technologies web modernes. J'aime créer des applications belles et fonctionnelles qui résolvent des problèmes réels.",
+            "nameTag": "Développeur & Designer"
+        },
+        "projects": {
+            "title": "Projets",
+            "items": [
+                {
+                    "year": "2024",
+                    "name": "Site Portfolio",
+                    "role": "Développeur Full Stack",
+                    "type": "Projet Personnel",
+                    "logo": "🎨"
+                },
+                {
+                    "year": "2023",
+                    "name": "Plateforme E-commerce",
+                    "role": "Développeur Frontend",
+                    "type": "Projet Client",
+                    "logo": "🛒"
+                },
+                {
+                    "year": "2022",
+                    "name": "App de Gestion de Tâches",
+                    "role": "Développeur Backend",
+                    "type": "Open Source",
+                    "logo": "✅"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contactez-moi",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com",
+                    "icon": "🐙"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://linkedin.com",
+                    "icon": "💼"
+                },
+                {
+                    "name": "Email",
+                    "url": "mailto:hello@example.com",
+                    "icon": "✉️"
+                }
+            ]
+        }
+    }
+}
