@@ -1,6 +1,0 @@
-@tailwind base;
-@layer base {
-	body {
-		@apply bg-brand-light text-brand-dark dark:bg-brand-dark dark:text-brand-light;
-	}
-}
