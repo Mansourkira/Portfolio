@@ -21,7 +21,7 @@ export function TopBar({ messages, onLocaleSwitch }: TopBarProps) {
                 <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2">
                         <Globe className="h-5 w-5" />
-                        <span className="font-semibold">Portfolio</span>
+                        <span className="font-semibold">MansourDev</span>
                     </div>
                     <div className="flex items-center space-x-2">
                         <Button
