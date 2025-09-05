@@ -7,7 +7,7 @@ import { TimelineItem } from "@/components/timeline-item"
 import { ExperienceItem } from "@/components/experience-item"
 import { EducationItem } from "@/components/education-item"
 import { SocialRow } from "@/components/social-row"
-import { ResumeDownload } from "@/components/resume-download"
+import { CombinedDownload } from "@/components/combined-download"
 import { Separator } from "@/components/ui/separator"
 import { AnimatedText } from "@/components/animated-text"
 import { useLocale } from "@/components/hooks/use-locale"
@@ -54,14 +54,40 @@ export default function HomePage() {
                 </div>
               </AnimatedText>
               <AnimatedText delay={0.8} isAnimating={isAnimating}>
-                <ResumeDownload
-                  title={t.resume.title}
-                  description={t.resume.description}
-                  button={t.resume.button}
+                <CombinedDownload
+                  resumeTitle={t.resume.title}
+                  resumeDescription={t.resume.description}
+                  resumeButton={t.combined.resumeButton}
+                  skillsTitle={t.skills.title}
+                  skillsDescription={t.skills.description}
+                  skillsButton={t.combined.skillsButton}
                   locale={locale}
                 />
               </AnimatedText>
             </div>
+          </div>
+        </Section>
+
+        <Separator />
+
+        {/* Projects Section */}
+        <Section className="space-y-8">
+          <AnimatedText delay={0.2} isAnimating={isAnimating}>
+            <h2 className="text-2xl font-semibold">{t.projects.title}</h2>
+          </AnimatedText>
+          <div className="space-y-8">
+            {t.projects.items.map((project, index: number) => (
+              <TimelineItem
+                key={index}
+                year={project.year}
+                name={project.name}
+                role={project.role}
+                type={project.type}
+                logo={project.logo}
+                description={project.description}
+                url={project.url}
+              />
+            ))}
           </div>
         </Section>
 
@@ -84,29 +110,6 @@ export default function HomePage() {
                 location={experience.location}
                 logo={experience.logo}
                 description={experience.description}
-              />
-            ))}
-          </div>
-        </Section>
-
-        <Separator />
-
-        {/* Projects Section */}
-        <Section className="space-y-8">
-          <AnimatedText delay={0.2} isAnimating={isAnimating}>
-            <h2 className="text-2xl font-semibold">{t.projects.title}</h2>
-          </AnimatedText>
-          <div className="space-y-8">
-            {t.projects.items.map((project, index: number) => (
-              <TimelineItem
-                key={index}
-                year={project.year}
-                name={project.name}
-                role={project.role}
-                type={project.type}
-                logo={project.logo}
-                description={project.description}
-                url={project.url}
               />
             ))}
           </div>
