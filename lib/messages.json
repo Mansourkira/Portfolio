@@ -61,12 +61,30 @@
                 },
                 {
                     "year": "2024",
-                    "name": "Payment Gateway",
-                    "role": "Multi-Payment Integration",
-                    "type": "Payment Solution",
-                    "logo": "💳",
-                    "description": "Complete development of a robust solution for one-time and recurring payments. Designed frontend with Next.js and backend with Node.js for a smooth user experience. Integrated PayPal and Stripe to expand payment options.",
-                    "url": "#"
+                    "name": "Tanad",
+                    "role": "E-commerce Platform",
+                    "type": "Online Marketplace",
+                    "logo": "🛒",
+                    "description": "Full-stack e-commerce platform built with Next.js and Node.js, featuring product management, user authentication, payment processing, and order tracking. Integrated with modern payment gateways and designed for scalability.",
+                    "url": "https://tanad.app"
+                },
+                {
+                    "year": "2024",
+                    "name": "Pukla",
+                    "role": "Social Media Platform",
+                    "type": "Community & Social",
+                    "logo": "👥",
+                    "description": "Social media platform developed with React and Node.js, enabling users to connect, share content, and build communities. Features include real-time messaging, content sharing, and user profiles with advanced privacy controls.",
+                    "url": "https://puk.la"
+                },
+                {
+                    "year": "2024",
+                    "name": "laz.im",
+                    "role": "URL Shortener",
+                    "type": "Link Management",
+                    "logo": "🔗",
+                    "description": "Simple and efficient URL shortener service with analytics dashboard. Built with Next.js and MongoDB, providing custom short links, click tracking, and detailed usage statistics for businesses and individuals.",
+                    "url": "https://laz.im"
                 }
             ]
         },
@@ -131,6 +149,17 @@
             "title": "Download Resume",
             "description": "Get my complete professional experience and skills",
             "button": "Download PDF"
+        },
+        "skills": {
+            "title": "Download Skills Portfolio",
+            "description": "Explore my technical skills and competencies in detail",
+            "button": "Download PDF"
+        },
+        "combined": {
+            "title": "Download Documents",
+            "description": "Get my complete professional documents",
+            "resumeButton": "Resume",
+            "skillsButton": "Skills"
         }
     },
     "fr": {
@@ -195,12 +224,30 @@
                 },
                 {
                     "year": "2024",
-                    "name": "Passerelle de Paiement",
-                    "role": "Intégration Multi-Paiements",
-                    "type": "Solution de Paiement",
-                    "logo": "💳",
-                    "description": "Développement complet d'une solution robuste pour paiements uniques et récurrents. Conçu le frontend avec Next.js et le backend avec Node.js pour une expérience utilisateur fluide. Intégré PayPal et Stripe pour élargir les options de paiement.",
-                    "url": "#"
+                    "name": "Tanad",
+                    "role": "Plateforme E-commerce",
+                    "type": "Marketplace en Ligne",
+                    "logo": "🛒",
+                    "description": "Plateforme e-commerce full-stack construite avec Next.js et Node.js, incluant la gestion des produits, l'authentification utilisateur, le traitement des paiements et le suivi des commandes. Intégrée avec des passerelles de paiement modernes et conçue pour l'évolutivité.",
+                    "url": "https://tanad.app"
+                },
+                {
+                    "year": "2024",
+                    "name": "Pukla",
+                    "role": "Plateforme de Médias Sociaux",
+                    "type": "Communauté & Social",
+                    "logo": "👥",
+                    "description": "Plateforme de médias sociaux développée avec React et Node.js, permettant aux utilisateurs de se connecter, partager du contenu et construire des communautés. Fonctionnalités incluent la messagerie en temps réel, le partage de contenu et les profils utilisateurs avec des contrôles de confidentialité avancés.",
+                    "url": "https://puk.la"
+                },
+                {
+                    "year": "2024",
+                    "name": "laz.im",
+                    "role": "Raccourcisseur d'URL",
+                    "type": "Gestion de Liens",
+                    "logo": "🔗",
+                    "description": "Service de raccourcissement d'URL simple et efficace avec tableau de bord d'analytique. Construit avec Next.js et MongoDB, fournissant des liens courts personnalisés, le suivi des clics et des statistiques d'utilisation détaillées pour les entreprises et les particuliers.",
+                    "url": "https://laz.im"
                 }
             ]
         },
@@ -265,6 +312,17 @@
             "title": "Télécharger le CV",
             "description": "Obtenez mon expérience professionnelle complète et mes compétences",
             "button": "Télécharger PDF"
+        },
+        "skills": {
+            "title": "Télécharger le Portfolio de Compétences",
+            "description": "Explorez mes compétences techniques et professionnelles en détail",
+            "button": "Télécharger PDF"
+        },
+        "combined": {
+            "title": "Télécharger les Documents",
+            "description": "Obtenez mes documents professionnels complets",
+            "resumeButton": "CV",
+            "skillsButton": "Compétences"
         }
     }
 }
