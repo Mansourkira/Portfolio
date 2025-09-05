@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ben Mansour Mansour",
   description: "My personal portfolio showcasing projects and skills",
+  icons: {
+    icon: "/bm.png",
+    shortcut: "/bm.png",
+    apple: "/bm.png",
+  },
 };
 
 export default function RootLayout({
