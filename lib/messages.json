@@ -137,7 +137,7 @@
                     "name": "Email",
                     "url": "mailto:mansour.benmansour@esprit.tn",
                     "icon": "✉️"
-                },
+                }
             ]
         },
         "resume": {
@@ -295,11 +295,6 @@
                     "name": "Email",
                     "url": "mailto:mansour.benmansour@esprit.tn",
                     "icon": "✉️"
-                },
-                {
-                    "name": "Portfolio",
-                    "url": "https://maaansour.vercel.app",
-                    "icon": "🌐"
                 }
             ]
         },
