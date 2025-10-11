@@ -194,7 +194,7 @@
                     "description": "Leadership technique sur le backend (Node.js) et implémentation de fonctionnalités métiers. Développement frontend avec Next.js et gestion d'état avec Redux. Déploiement via Docker et automatisation des processus CI/CD."
                 },
                 {
-                    "year": "2022-Présent",
+                    "year": "2022-2025",
                     "name": "Développeur Full Stack",
                     "company": "Sikka Software",
                     "role": "Développeur Full Stack",
@@ -209,7 +209,25 @@
             "title": "Projets",
             "items": [
                 {
-                    "year": "2024",
+                    "year": "2025",
+                    "name": "EvoluFlow",
+                    "role": "Entreprise Resource Planning",
+                    "type": "Gestion de Flux",
+                    "logo": "🚀",
+                    "description": "ERP System multi-entreprise construit avec Next.js, Node.js, PostgreSQL et Supabase. Gestion des produits, des commandes, des inventaires, des clients, des fournisseurs, des factures, des paiements, des rapports et des statistiques. Intégration avec des passerelles de paiement modernes et conçu pour l'évolutivité.",
+                    "url": "https://erp.admission.tn"
+                },
+                {
+                    "year": "2025",
+                    "name": "Inventaire",
+                    "role": "Gestion d'Inventaire",
+                    "type": "Gestion d'Inventaire",
+                    "logo": "🚀",
+                    "description": "Application mobile pour la gestion d'inventaire client, permettant le scan de codes QR, l'ajout de quantités aux articles et l'importation de données.",
+                    "url": "https://beta.inventaire.admission.tn"
+                },
+                {
+                    "year": "2025",
                     "name": "LinkTrack",
                     "role": "Plateforme Open Source",
                     "type": "Raccourcissement de Liens & Analyse",
@@ -218,13 +236,13 @@
                     "url": "https://linktrack.app"
                 },
                 {
-                    "year": "2024",
+                    "year": "2025",
                     "name": "Tanad",
-                    "role": "Plateforme E-commerce",
-                    "type": "Marketplace en Ligne",
+                    "role": "Entreprise Resource Planning",
+                    "type": "Entreprise Resource Planning",
                     "logo": "🛒",
-                    "description": "Plateforme e-commerce full-stack construite avec Next.js et Node.js, incluant la gestion des produits, l'authentification utilisateur, le traitement des paiements et le suivi des commandes. Intégrée avec des passerelles de paiement modernes et conçue pour l'évolutivité.",
-                    "url": "https://tanad.app"
+                    "description": "ERP System multi-entreprise construit avec Next.js, Node.js, PostgreSQL et Supabase. Gestion des produits, des commandes, des inventaires, des clients, des fournisseurs, des factures, des paiements, des rapports et des statistiques. Intégration avec des passerelles de paiement modernes et conçu pour l'évolutivité.",
+                    "url": "https://beta.tanad.app"
                 },
                 {
                     "year": "2024",
