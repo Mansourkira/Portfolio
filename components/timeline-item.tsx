@@ -1,8 +1,5 @@
 "use client"
 
-import { ArrowRight } from "lucide-react"
-import { useLocale } from "@/components/hooks/use-locale"
-
 interface TimelineItemProps {
     year: string
     name: string

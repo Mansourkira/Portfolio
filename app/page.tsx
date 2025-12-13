@@ -55,11 +55,7 @@ export default function HomePage() {
               </AnimatedText>
               <AnimatedText delay={0.8} isAnimating={isAnimating}>
                 <CombinedDownload
-                  resumeTitle={t.resume.title}
-                  resumeDescription={t.resume.description}
                   resumeButton={t.combined.resumeButton}
-                  skillsTitle={t.skills.title}
-                  skillsDescription={t.skills.description}
                   skillsButton={t.combined.skillsButton}
                   locale={locale}
                 />

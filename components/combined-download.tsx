@@ -1,24 +1,16 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Download, FileText, Briefcase } from "lucide-react"
+import { Download, FileText } from "lucide-react"
 
 interface CombinedDownloadProps {
-    resumeTitle: string
-    resumeDescription: string
     resumeButton: string
-    skillsTitle: string
-    skillsDescription: string
     skillsButton: string
     locale: string
 }
 
 export function CombinedDownload({
-    resumeTitle,
-    resumeDescription,
     resumeButton,
-    skillsTitle,
-    skillsDescription,
     skillsButton,
     locale
 }: CombinedDownloadProps) {
