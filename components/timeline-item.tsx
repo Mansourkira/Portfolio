@@ -1,6 +1,7 @@
 "use client"
 
-
+import { ArrowRight } from "lucide-react"
+import { useLocale } from "@/components/hooks/use-locale"
 
 interface TimelineItemProps {
     year: string
@@ -38,6 +39,7 @@ export function TimelineItem({ year, name, role, type, logo, description, url }:
                                     className="text-xs text-primary hover:underline"
                                 >
                                     View Project →
+                                    <ArrowRight className="w-4 h-4" />
                                 </a>
                             )}
                         </div>
