@@ -39,7 +39,7 @@ export function TimelineItem({ year, name, role, type, logo, description, url }:
                                     className="text-xs text-primary hover:underline"
                                 >
                                     View Project →
-                                    <ArrowRight className="w-4 h-4" />
+
                                 </a>
                             )}
                         </div>
