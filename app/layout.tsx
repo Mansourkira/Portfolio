@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ben Mansour Mansour",
+  title: "Project Leader & Full Stack Engineer | 3+ Years Experience | MSc Student at ESTIAM Paris",
   description: "My personal portfolio showcasing projects and skills",
   icons: {
     icon: "/bm.png",
