@@ -174,34 +174,34 @@
             "title": "Expérience Professionnelle",
             "items": [
                 {
-                    "year": "2025",
-                    "name": "Technical Lead (Développement ERP)",
-                    "company": "Admission",
+                    "year": "2025 - Présent",
+                    "name": "Consultant Externe & Technical Lead Full-Stack",
+                    "company": "L'Univers Informatique / Admission",
                     "role": "Technical Lead",
-                    "type": "Temps plein",
+                    "type": "Temps plein / Freelance",
                     "location": "Tunis, Tunisie",
                     "logo": "🚀",
-                    "description": "Conception et implémentation de l'architecture ERP utilisant Next.js, Node.js et PostgreSQL, avec mise en place des pipelines CI/CD. Encadrement d'une équipe de développement (revues de code, priorisation des tâches) et mentorat des juniors. Gestion des démonstrations clients et des présentations techniques, maintenance des workflows GitHub."
+                    "description": "Architecte et Tech Lead de l'écosystème applicatif global. Conception d'architectures ERP et SaaS multi-tenant à forte charge. Migration d'infrastructures vers des machines haute performance, configuration de serveurs dédiés et sécurisation réseau (Cloudflare). Encadrement d'une équipe de développement, revues de code, gestion des pipelines CI/CD complexes et interface technique directe avec la direction."
                 },
                 {
-                    "year": "2024-2025",
+                    "year": "2024 - 2025",
                     "name": "Développeur Full Stack",
                     "company": "BeBouncy",
                     "role": "Développeur Full Stack",
                     "type": "Temps plein",
                     "location": "La Marsa, Tunisie",
                     "logo": "💻",
-                    "description": "Leadership technique sur le backend (Node.js) et implémentation de fonctionnalités métiers. Développement frontend avec Next.js et gestion d'état avec Redux. Déploiement via Docker et automatisation des processus CI/CD."
+                    "description": "Leadership technique sur le backend (Node.js) et implémentation de fonctionnalités métiers critiques. Développement d'interfaces frontend haut de gamme avec Next.js et gestion d'état complexe (Redux/Zustand). Industrialisation des déploiements via Docker et automatisation des processus CI/CD pour des applications à fort trafic."
                 },
                 {
-                    "year": "2022-2025",
+                    "year": "2022 - 2025",
                     "name": "Développeur Full Stack",
                     "company": "Sikka Software",
                     "role": "Développeur Full Stack",
                     "type": "Télétravail",
-                    "location": "Télétravail",
+                    "location": "Tunis, Tunisie",
                     "logo": "🌐",
-                    "description": "Développement d'applications avec Next.js, Node.js (TypeScript), GraphQL et Supabase. Conception de fonctionnalités évolutives et haute performance. Contribution à 12+ projets utilisant GraphQL, Shadcn et Supabase."
+                    "description": "Développement et livraison réussie de 12+ applications web complexes. Spécialisation dans les architectures découplées et scalables. Conception d'APIs performantes et de schémas de bases de données relationnelles optimisés pour des applications métiers et plateformes grand public."
                 }
             ]
         },
@@ -209,57 +209,75 @@
             "title": "Projets",
             "items": [
                 {
+                    "year": "2026",
+                    "name": "Edifis Resellers Hub",
+                    "role": "Architecte Multi-Tenant SaaS",
+                    "type": "E-commerce Multi-Boutiques",
+                    "logo": "🏪",
+                    "description": "Conception d'une architecture multi-tenant gérant le routage dynamique de sous-domaines (Cloudflare DNS) pour un réseau de +60 boutiques revendeurs. Intégration de catalogues lourds (+6 000 produits), masquage dynamique des prix ('Sur demande') et transformation du tunnel d'achat classique en un système de demande de devis automatisé via Email et WhatsApp.",
+                    "url": "https://admin.sanitaire.shop"
+                },
+                {
+                    "year": "2026",
+                    "name": "STK Engine",
+                    "role": "Ingénieur Backend / Data",
+                    "type": "Automatisation & Synchronisation",
+                    "logo": "⚙️",
+                    "description": "Développement d'un moteur de synchronisation de données critiques en temps réel. Mise en place de pipelines de données (Cron Jobs) hautement résilients sur serveur dédié pour connecter une base de données cloud (Supabase/PostgreSQL) avec des APIs e-commerce tierces (Ecwid), éliminant à 100% les anomalies de stocks physiques en entrepôt.",
+                    "url": "https://stk.edifis-group.com"
+                },
+                {
+                    "year": "2026",
+                    "name": "Application Mobile Inventaire",
+                    "role": "Développeur Mobile Full-Stack",
+                    "type": "Logistique & Terrain",
+                    "logo": "📱",
+                    "description": "Application Android avancée dédiée à la logistique terrain et à la gestion d'inventaire d'entrepôt en temps réel. Interconnexion directe avec une infrastructure Microsoft SQL Server (T-SQL). Prise en charge du scan rapide de codes QR/Barres, gestion de la synchronisation locale en mode déconnecté et optimisation des performances pour le traitement de volumes de données massifs.",
+                    "url": "https://beta.inventaire.admission.tn"
+                },
+                {
+                    "year": "2026",
+                    "name": "Edifis Reporting & Analytics",
+                    "role": "Développeur BI & Analytics",
+                    "type": "Business Intelligence Portal",
+                    "logo": "📊",
+                    "description": "Plateforme interne de Business Intelligence centralisant les indicateurs clés de performance (KPI) de l'écosystème. Développement de tableaux de bord dynamiques (charts interactifs) pour tracker le volume de visiteurs uniques, l'analyse des clics et les comportements d'achat par revendeur.",
+                    "url": "https://reporting.edifis-group.com"
+                },
+                {
                     "year": "2025",
                     "name": "EvoluFlow",
-                    "role": "Entreprise Resource Planning",
-                    "type": "Gestion de Flux",
-                    "logo": "🚀",
-                    "description": "ERP System multi-entreprise construit avec Next.js, Node.js, PostgreSQL et Supabase. Gestion des produits, des commandes, des inventaires, des clients, des fournisseurs, des factures, des paiements, des rapports et des statistiques. Intégration avec des passerelles de paiement modernes et conçu pour l'évolutivité.",
+                    "role": "Lead Engineer ERP",
+                    "type": "Enterprise Resource Planning",
+                    "logo": "💼",
+                    "description": "Système ERP multi-entreprise complet conçu pour optimiser les flux métiers. Modules avancés développés pour la gestion intégrée des produits, commandes, facturations, inventaires fournisseurs, ainsi que des algorithmes de reporting statistique et l'intégration de passerelles de paiement sécurisées.",
                     "url": "https://erp.admission.tn"
                 },
                 {
                     "year": "2025",
-                    "name": "Inventaire",
-                    "role": "Gestion d'Inventaire",
-                    "type": "Gestion d'Inventaire",
-                    "logo": "🚀",
-                    "description": "Application mobile pour la gestion d'inventaire client, permettant le scan de codes QR, l'ajout de quantités aux articles et l'importation de données.",
-                    "url": "https://beta.inventaire.admission.tn"
-                },
-                {
-                    "year": "2025",
                     "name": "LinkTrack",
-                    "role": "Plateforme Open Source",
-                    "type": "Raccourcissement de Liens & Analyse",
+                    "role": "Créateur Open Source",
+                    "type": "Raccourcissement de Liens & Analytique",
                     "logo": "🔗",
-                    "description": "Plateforme open source pour créer des liens courts personnalisés et analyser l'engagement, démontrant un travail de qualité professionnelle. Technologies : Next.js 15, Supabase, shadcn/ui ; interface responsive, authentification sécurisée et performances optimisées. Inclut statistiques d'utilisation, accès par rôles et formules d'abonnement ; déployée sur linktrack.app.",
+                    "description": "Plateforme SaaS open source de niveau professionnel pour la création de liens courts personnalisés et l'analyse d'audience en temps réel. UI/UX ultra-soignée avec authentification sécurisée, gestion des rôles (RBAC), statistiques de clics géolocalisées et intégration de formules d'abonnements premium.",
                     "url": "https://linktrack.app"
-                },
-                {
-                    "year": "2025",
-                    "name": "Tanad",
-                    "role": "Entreprise Resource Planning",
-                    "type": "Entreprise Resource Planning",
-                    "logo": "🛒",
-                    "description": "ERP System multi-entreprise construit avec Next.js, Node.js, PostgreSQL et Supabase. Gestion des produits, des commandes, des inventaires, des clients, des fournisseurs, des factures, des paiements, des rapports et des statistiques. Intégration avec des passerelles de paiement modernes et conçu pour l'évolutivité.",
-                    "url": "https://beta.tanad.app"
                 },
                 {
                     "year": "2024",
                     "name": "Pukla",
-                    "role": "Plateforme de Médias Sociaux",
-                    "type": "Communauté & Social",
+                    "role": "Développeur Full Stack",
+                    "type": "Réseau Social & Communauté",
                     "logo": "👥",
-                    "description": "Plateforme de médias sociaux développée avec React et Node.js, permettant aux utilisateurs de se connecter, partager du contenu et construire des communautés. Fonctionnalités incluent la messagerie en temps réel, le partage de contenu et les profils utilisateurs avec des contrôles de confidentialité avancés.",
+                    "description": "Réseau social complet axé sur l'engagement communautaire. Implémentation d'une messagerie instantanée en temps réel (WebSockets), de flux d'actualités dynamiques avec algorithme de pertinence, et de paramètres de confidentialité avancés pour les profils utilisateurs.",
                     "url": "https://puk.la"
                 },
                 {
                     "year": "2024",
                     "name": "laz.im",
-                    "role": "Raccourcisseur d'URL",
-                    "type": "Gestion de Liens",
-                    "logo": "🔗",
-                    "description": "Service de raccourcissement d'URL simple et efficace avec tableau de bord d'analytique. Construit avec Next.js et MongoDB, fournissant des liens courts personnalisés, le suivi des clics et des statistiques d'utilisation détaillées pour les entreprises et les particuliers.",
+                    "role": "Développeur Full Stack",
+                    "type": "Utilitaire SaaS",
+                    "logo": "✂️",
+                    "description": "Service de gestion de liens et de redirection rapide intégrant un tableau de bord analytique complet. Développé avec une architecture performante (Next.js & MongoDB) garantissant des redirections à faible latence et un suivi précis de l'origine du trafic.",
                     "url": "https://laz.im"
                 }
             ]
@@ -268,69 +286,76 @@
             "title": "Formation",
             "items": [
                 {
-                    "year": "2020-2023",
+                    "year": "2026 - Présent",
+                    "name": "Master (MSc) en Informatique",
+                    "institution": "ESTIAM Paris",
+                    "location": "Paris, France",
+                    "logo": "🗼"
+                },
+                {
+                    "year": "2020 - 2023",
                     "name": "Diplôme d'Ingénieur en Informatique (TWIN)",
-                    "institution": "Esprit",
-                    "location": "Ariana - El Ghazela",
+                    "institution": "ESPRIT",
+                    "location": "Ariana - El Ghazela, Tunisie",
                     "logo": "🎓"
                 },
                 {
-                    "year": "2017-2020",
-                    "name": "Diplôme en Développement Multimédia et Web",
+                    "year": "2017 - 2020",
+                    "name": "Diplôme en Développement Multimédia et Web (Licence)",
                     "institution": "Institut Supérieur des Études Technologiques de Djerba",
-                    "location": "ISET Djerba - Midoun",
+                    "location": "ISET Djerba - Midoun, Tunisie",
                     "logo": "📚"
                 }
             ]
-        },
-        "languages": {
-            "title": "Langues",
-            "items": [
-                {
-                    "name": "Anglais",
-                    "level": "B2"
-                },
-                {
-                    "name": "Français",
-                    "level": "B2"
-                }
-            ]
-        },
-        "contact": {
-            "title": "Contactez-moi",
-            "links": [
-                {
-                    "name": "GitHub",
-                    "url": "https://github.com/Mansourkira",
-                    "icon": "🐙"
-                },
-                {
-                    "name": "LinkedIn",
-                    "url": "https://linkedin.com/in/ben-mansour-mansour-986873186",
-                    "icon": "💼"
-                },
-                {
-                    "name": "Email",
-                    "url": "mailto:benmansourmansour08@gmail.com",
-                    "icon": "✉️"
-                }
-            ]
-        },
-        "resume": {
-            "title": "Télécharger le CV",
-            "description": "Obtenez mon expérience professionnelle complète et mes compétences",
-            "button": "Télécharger PDF"
-        },
-        "skills": {
-            "title": "Télécharger le Portfolio de Compétences",
-            "description": "Explorez mes compétences techniques et professionnelles en détail",
-            "button": "Télécharger PDF"
-        },
-        "combined": {
-            "title": "Télécharger les Documents",
-            "description": "Obtenez mes documents professionnels complets",
-            "resumeButton": "CV",
-            "skillsButton": "Compétences"
         }
+    },
+    "languages": {
+        "title": "Langues",
+        "items": [
+            {
+                "name": "Anglais",
+                "level": "B2"
+            },
+            {
+                "name": "Français",
+                "level": "B2"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contactez-moi",
+        "links": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/Mansourkira",
+                "icon": "🐙"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://linkedin.com/in/ben-mansour-mansour-986873186",
+                "icon": "💼"
+            },
+            {
+                "name": "Email",
+                "url": "mailto:benmansourmansour08@gmail.com",
+                "icon": "✉️"
+            }
+        ]
+    },
+    "resume": {
+        "title": "Télécharger le CV",
+        "description": "Obtenez mon expérience professionnelle complète et mes compétences",
+        "button": "Télécharger PDF"
+    },
+    "skills": {
+        "title": "Télécharger le Portfolio de Compétences",
+        "description": "Explorez mes compétences techniques et professionnelles en détail",
+        "button": "Télécharger PDF"
+    },
+    "combined": {
+        "title": "Télécharger les Documents",
+        "description": "Obtenez mes documents professionnels complets",
+        "resumeButton": "CV",
+        "skillsButton": "Compétences"
     }
 }
