@@ -307,55 +307,55 @@
                     "logo": "📚"
                 }
             ]
+        },
+        "languages": {
+            "title": "Langues",
+            "items": [
+                {
+                    "name": "Anglais",
+                    "level": "B2"
+                },
+                {
+                    "name": "Français",
+                    "level": "B2"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contactez-moi",
+            "links": [
+                {
+                    "name": "GitHub",
+                    "url": "https://github.com/Mansourkira",
+                    "icon": "🐙"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://linkedin.com/in/ben-mansour-mansour-986873186",
+                    "icon": "💼"
+                },
+                {
+                    "name": "Email",
+                    "url": "mailto:benmansourmansour08@gmail.com",
+                    "icon": "✉️"
+                }
+            ]
+        },
+        "resume": {
+            "title": "Télécharger le CV",
+            "description": "Obtenez mon expérience professionnelle complète et mes compétences",
+            "button": "Télécharger PDF"
+        },
+        "skills": {
+            "title": "Télécharger le Portfolio de Compétences",
+            "description": "Explorez mes compétences techniques et professionnelles en détail",
+            "button": "Télécharger PDF"
+        },
+        "combined": {
+            "title": "Télécharger les Documents",
+            "description": "Obtenez mes documents professionnels complets",
+            "resumeButton": "CV",
+            "skillsButton": "Compétences"
         }
-    },
-    "languages": {
-        "title": "Langues",
-        "items": [
-            {
-                "name": "Anglais",
-                "level": "B2"
-            },
-            {
-                "name": "Français",
-                "level": "B2"
-            }
-        ]
-    },
-    "contact": {
-        "title": "Contactez-moi",
-        "links": [
-            {
-                "name": "GitHub",
-                "url": "https://github.com/Mansourkira",
-                "icon": "🐙"
-            },
-            {
-                "name": "LinkedIn",
-                "url": "https://linkedin.com/in/ben-mansour-mansour-986873186",
-                "icon": "💼"
-            },
-            {
-                "name": "Email",
-                "url": "mailto:benmansourmansour08@gmail.com",
-                "icon": "✉️"
-            }
-        ]
-    },
-    "resume": {
-        "title": "Télécharger le CV",
-        "description": "Obtenez mon expérience professionnelle complète et mes compétences",
-        "button": "Télécharger PDF"
-    },
-    "skills": {
-        "title": "Télécharger le Portfolio de Compétences",
-        "description": "Explorez mes compétences techniques et professionnelles en détail",
-        "button": "Télécharger PDF"
-    },
-    "combined": {
-        "title": "Télécharger les Documents",
-        "description": "Obtenez mes documents professionnels complets",
-        "resumeButton": "CV",
-        "skillsButton": "Compétences"
     }
 }
