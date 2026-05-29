@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mansour",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-05-28",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "global_fetch_strictly_public"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "services": [
+    {
+      "binding": "WORKER_SELF_REFERENCE",
+      // Must match the "name" field above (not package.json "portfolio")
+      "service": "mansour"
+    }
+  ],
+  "images": {
+    "binding": "IMAGES"
+  }
+}
