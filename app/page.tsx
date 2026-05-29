@@ -26,7 +26,9 @@ export default function HomePage() {
   }
 
   if (!mounted) {
+
     return null
+
   }
 
   const t = messages[locale as keyof typeof messages]
