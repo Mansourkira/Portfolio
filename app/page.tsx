@@ -41,7 +41,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-[1fr_300px] gap-8 items-start">
             <div className="space-y-6">
               <AnimatedText delay={0.2} isAnimating={isAnimating}>
-                <h1 className="text-2xl font-semibold">{t.about.title}</h1>
+                <h1 className="text-xl md:text-2xl font-semibold leading-snug tracking-tight">{t.about.title}</h1>
               </AnimatedText>
               <AnimatedText delay={0.4} isAnimating={isAnimating}>
                 <p className="text-[17px] leading-relaxed tracking-tight text-muted-foreground">{t.about.body}</p>
