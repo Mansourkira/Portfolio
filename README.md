@@ -140,7 +140,25 @@ The portfolio supports multiple languages through a custom localization system:
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
+### Cloudflare Workers (OpenNext)
+
+This project uses `@opennextjs/cloudflare`. In the Cloudflare dashboard, set:
+
+| Setting | Command |
+|--------|---------|
+| **Build command** | `npm run build:cloudflare` |
+| **Deploy command** | `npx wrangler deploy` |
+| **Node.js version** | `22` (see `.nvmrc`) |
+
+Do **not** use `npm run build` alone for deploy — it only runs `next build` and does not create `.open-next/worker.js`.
+
+Local deploy:
+
+```bash
+npm run deploy
+```
+
+### Vercel
 1. Connect your GitHub repository to Vercel
 2. Configure build settings
 3. Deploy automatically on push
