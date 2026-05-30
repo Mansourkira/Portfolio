@@ -18,7 +18,7 @@
                 {
                     "year": "2026-Present",
                     "name": "Software Engineer & Infrastructure Architect",
-                    "company": "Edifis Group (Freelance Mission / Mehdi Karray)",
+                    "company": "Edifis Group",
                     "role": "Full Stack Engineer & DevOps",
                     "type": "Part-time",
                     "location": "Tunis, Tunisia / Remote",
@@ -26,34 +26,34 @@
                     "description": "Architected the Edifis Revendeurs Hub, a specialized B2B multi-tenant e-commerce engine serving 1,000+ active operators. Built dynamic tenant provisioning core, managed global network routing topology and edge caching via Cloudflare for 60+ live storefronts with sub-second latency. Engineered robust workers for automated real-time ERP (Sage) and marketplace (Ecwid) data synchronization. Refactored global state management to eliminate memory and local storage bottlenecks."
                 },
                 {
-                    "year": "2025-Present",
+                    "year": "2025-2026",
                     "name": "Technical Lead (ERP Development)",
                     "company": "Admission",
                     "role": "Technical Lead",
                     "type": "Full-time",
                     "location": "Tunis, Tunisia",
                     "logo": "🚀",
-                    "description": "Design and implementation of ERP architecture using Next.js, Node.js and PostgreSQL, with CI/CD pipeline setup. Leading a development team (code reviews, task prioritization) and mentoring juniors. Managing client demonstrations and technical presentations, maintaining GitHub workflows."
+                    "description": "Led the end-to-end design and implementation of a core full-featured ERP architecture using Next.js, Node.js, and PostgreSQL. Established unified state management standards, automated infrastructure via robust Docker containerization and CI/CD deployment pipelines. Managed development sprint cycles, task prioritization, code reviews, and conducted client-facing technical demonstrations."
                 },
                 {
                     "year": "2024-2025",
-                    "name": "Full Stack Developer",
+                    "name": "Software Engineer",
                     "company": "BeBouncy",
                     "role": "Full Stack Developer",
                     "type": "Full-time",
                     "location": "La Marsa, Tunisia",
                     "logo": "💻",
-                    "description": "Technical leadership on backend (Node.js) and implementation of business features. Frontend development with Next.js and state management with Redux. Deployment via Docker and CI/CD process automation."
+                    "description": "Technical leadership on robust backend systems using Node.js and scalable feature architectures. Developed consumer-facing frontends using Next.js and Redux for advanced state control. Automated deployment mechanisms and integrated continuous continuous integration pipelines via Docker."
                 },
                 {
-                    "year": "2022-Present",
+                    "year": "2022-2024",
                     "name": "Full Stack Developer",
                     "company": "Sikka Software",
                     "role": "Full Stack Developer",
                     "type": "Remote",
                     "location": "Remote",
                     "logo": "🌐",
-                    "description": "Application development with Next.js, Node.js (TypeScript), GraphQL and Supabase. Design of scalable and high-performance features. Contribution to 12+ projects using GraphQL, Shadcn and Supabase."
+                    "description": "Contributed to the high-performance delivery of 12+ parallel web projects. Built scalable architectures leveraging Next.js, Node.js (TypeScript), GraphQL APIs, Shadcn/ui, and Supabase backend services."
                 }
             ]
         },
