@@ -16,7 +16,17 @@
             "title": "Professional Experience",
             "items": [
                 {
-                    "year": "2025",
+                    "year": "2026-Present",
+                    "name": "Software Engineer & Infrastructure Architect",
+                    "company": "Edifis Group (Freelance Mission / Mehdi Karray)",
+                    "role": "Full Stack Engineer & DevOps",
+                    "type": "Part-time",
+                    "location": "Tunis, Tunisia / Remote",
+                    "logo": "🏗️",
+                    "description": "Architected the Edifis Revendeurs Hub, a specialized B2B multi-tenant e-commerce engine serving 1,000+ active operators. Built dynamic tenant provisioning core, managed global network routing topology and edge caching via Cloudflare for 60+ live storefronts with sub-second latency. Engineered robust workers for automated real-time ERP (Sage) and marketplace (Ecwid) data synchronization. Refactored global state management to eliminate memory and local storage bottlenecks."
+                },
+                {
+                    "year": "2025-Present",
                     "name": "Technical Lead (ERP Development)",
                     "company": "Admission",
                     "role": "Technical Lead",
@@ -51,12 +61,44 @@
             "title": "Projects",
             "items": [
                 {
+                    "year": "2026",
+                    "name": "Edifis Revendeurs Hub",
+                    "role": "Software Architect & Creator",
+                    "type": "Multi-Tenant B2B E-Commerce Engine",
+                    "logo": "🛒",
+                    "description": "Designed a custom, Shopify-style B2B multi-tenant engine enabling instantaneous provisioning, deployment, and branding of independent reseller storefronts from a centralized portal. Orchestrated dynamic routing pipelines and custom edge proxy rules via Cloudflare to host and serve 60+ live corporate domains simultaneously with sub-second latency. Full multi-tenant isolation, automated container environments, and zero-downtime release pipelines."
+                },
+                {
+                    "year": "2026",
+                    "name": "Edifis Omnichannel Stock Synchronizer",
+                    "role": "DevOps & Backend Engineer",
+                    "type": "Distributed Inventory Middleware",
+                    "logo": "🔄",
+                    "description": "Engineered a centralized real-time stock orchestration engine designed to sync unified warehouse inventory data across multiple standalone marketplace APIs and client endpoints. Built decoupled worker routines running on high-frequency cron tasks and event-driven manual triggers to safely isolate inventory transactions. Fully containerized with automated health-check alerting pipelines to eliminate split-brain data states."
+                },
+                {
+                    "year": "2025",
+                    "name": "Edifis Smart Inventory Tracker",
+                    "role": "Mobile Developer & DevOps",
+                    "type": "Industrial Android Application",
+                    "logo": "📱",
+                    "description": "Developed a native, high-performance Android utility tailored for industrial warehouse operators to execute high-speed material inventory logging and physical stock counts. Designed local-first caching patterns to allow offline device operations, complete with batch-processing synchronization engines upon reconnect. Packaged with micro-service API integrations and deployed using Docker environments."
+                },
+                {
+                    "year": "2026",
+                    "name": "Edifis BI & Commercial Reporting Studio",
+                    "role": "Full Stack Engineer & Data Analyst",
+                    "type": "Business Intelligence & Analytics Platform",
+                    "logo": "📊",
+                    "description": "Architected a dedicated business intelligence dashboard aggregate providing granular real-time performance reporting, tracking cross-tenant sales analytics, product margin curves, and key commercial KPIs. Engineered data aggregation pipelines to compute dense metrics into complex, highly interactive data grids and fluid visual charts. Built-in enterprise-grade multi-role RBAC access security."
+                },
+                {
                     "year": "2024",
                     "name": "LinkTrack",
                     "role": "Open Source Platform",
                     "type": "Link Shortening & Analytics",
                     "logo": "🔗",
-                    "description": "Open source platform for creating custom short links and analyzing engagement, demonstrating professional quality work. Technologies: Next.js 15, Supabase, shadcn/ui; responsive interface, secure authentication and optimized performance. Includes usage statistics, role-based access and subscription plans; deployed on linktrack.app.",
+                    "description": "Open source Personal Link Shortener platform for creating custom short links and analyzing engagement, demonstrating professional quality work. Technologies: Next.js 15, Supabase, shadcn/ui; responsive interface, secure authentication and optimized performance. Includes usage statistics, role-based access and subscription plans; deployed on linktrack.app.",
                     "url": "https://linktrack.app"
                 },
                 {
@@ -76,21 +118,19 @@
                     "logo": "👥",
                     "description": "Social media platform developed with React and Node.js, enabling users to connect, share content, and build communities. Features include real-time messaging, content sharing, and user profiles with advanced privacy controls.",
                     "url": "https://puk.la"
-                },
-                {
-                    "year": "2024",
-                    "name": "laz.im",
-                    "role": "URL Shortener",
-                    "type": "Link Management",
-                    "logo": "🔗",
-                    "description": "Simple and efficient URL shortener service with analytics dashboard. Built with Next.js and MongoDB, providing custom short links, click tracking, and detailed usage statistics for businesses and individuals.",
-                    "url": "https://laz.im"
                 }
             ]
         },
         "education": {
             "title": "Education",
             "items": [
+                {
+                    "year": "2026-2028",
+                    "name": "Master's Degree in Computer Science",
+                    "institution": "ESTIAM Paris",
+                    "location": "Paris, France",
+                    "logo": "🌆"
+                },
                 {
                     "year": "2020-2023",
                     "name": "Computer Engineering Diploma (TWIN)",
