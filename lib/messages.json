@@ -62,61 +62,73 @@
             "items": [
                 {
                     "year": "2026",
-                    "name": "Edifis Revendeurs Hub",
-                    "role": "Software Architect & Creator",
-                    "type": "Multi-Tenant B2B E-Commerce Engine",
-                    "logo": "🛒",
-                    "description": "Designed a custom, Shopify-style B2B multi-tenant engine enabling instantaneous provisioning, deployment, and branding of independent reseller storefronts from a centralized portal. Orchestrated dynamic routing pipelines and custom edge proxy rules via Cloudflare to host and serve 60+ live corporate domains simultaneously with sub-second latency. Full multi-tenant isolation, automated container environments, and zero-downtime release pipelines."
+                    "name": "Edifis Resellers Hub",
+                    "role": "Multi-Tenant SaaS Architect",
+                    "type": "Multi-Store E-Commerce",
+                    "logo": "🏪",
+                    "description": "Designed a multi-tenant architecture managing dynamic subdomain routing (Cloudflare DNS) for a network of 60+ reseller stores. Integrated heavy catalogs (6,000+ products), dynamic price masking ('On Request'), and transformed the classic purchase funnel into an automated quote request system via Email and WhatsApp.",
+                    "url": "https://www.edifis-group.com/"
                 },
                 {
                     "year": "2026",
-                    "name": "Edifis Omnichannel Stock Synchronizer",
-                    "role": "DevOps & Backend Engineer",
-                    "type": "Distributed Inventory Middleware",
-                    "logo": "🔄",
-                    "description": "Engineered a centralized real-time stock orchestration engine designed to sync unified warehouse inventory data across multiple standalone marketplace APIs and client endpoints. Built decoupled worker routines running on high-frequency cron tasks and event-driven manual triggers to safely isolate inventory transactions. Fully containerized with automated health-check alerting pipelines to eliminate split-brain data states."
+                    "name": "STK Engine",
+                    "role": "Backend / Data Engineer",
+                    "type": "Automation & Synchronization",
+                    "logo": "⚙️",
+                    "description": "Developed a real-time critical data synchronization engine. Implemented highly resilient data pipelines (Cron Jobs) on a dedicated server to connect a cloud database (Supabase/PostgreSQL) with third-party e-commerce APIs (Ecwid), eliminating 100% of physical warehouse stock anomalies.",
+                    "url": "https://stk.edifis-group.com"
+                },
+                {
+                    "year": "2026",
+                    "name": "Application Mobile Inventaire",
+                    "role": "Full-Stack Mobile Developer",
+                    "type": "Logistics & Field Operations",
+                    "logo": "📱",
+                    "description": "Advanced Android application dedicated to field logistics and real-time warehouse inventory management. Direct interconnection with Microsoft SQL Server (T-SQL) infrastructure. Supports rapid QR/Barcode scanning, local offline synchronization, and performance optimization for processing massive data volumes.",
+                    "url": "https://beta.inventaire.admission.tn"
+                },
+                {
+                    "year": "2026",
+                    "name": "Edifis Reporting & Analytics",
+                    "role": "BI & Analytics Developer",
+                    "type": "Business Intelligence Portal",
+                    "logo": "📊",
+                    "description": "Internal Business Intelligence platform centralizing key performance indicators (KPIs) across the ecosystem. Development of dynamic dashboards (interactive charts) to track unique visitor volume, click analytics, and purchasing behavior per reseller.",
+                    "url": "https://reporting.edifis-group.com"
                 },
                 {
                     "year": "2025",
-                    "name": "Edifis Smart Inventory Tracker",
-                    "role": "Mobile Developer & DevOps",
-                    "type": "Industrial Android Application",
-                    "logo": "📱",
-                    "description": "Developed a native, high-performance Android utility tailored for industrial warehouse operators to execute high-speed material inventory logging and physical stock counts. Designed local-first caching patterns to allow offline device operations, complete with batch-processing synchronization engines upon reconnect. Packaged with micro-service API integrations and deployed using Docker environments."
+                    "name": "EvoluFlow",
+                    "role": "Lead ERP Engineer",
+                    "type": "Enterprise Resource Planning",
+                    "logo": "💼",
+                    "description": "Complete multi-company ERP system designed to optimize business workflows. Advanced modules developed for integrated product, order, billing, and supplier inventory management, along with statistical reporting algorithms and secure payment gateway integration.",
+                    "url": "https://erp.admission.tn"
                 },
                 {
-                    "year": "2026",
-                    "name": "Edifis BI & Commercial Reporting Studio",
-                    "role": "Full Stack Engineer & Data Analyst",
-                    "type": "Business Intelligence & Analytics Platform",
-                    "logo": "📊",
-                    "description": "Architected a dedicated business intelligence dashboard aggregate providing granular real-time performance reporting, tracking cross-tenant sales analytics, product margin curves, and key commercial KPIs. Engineered data aggregation pipelines to compute dense metrics into complex, highly interactive data grids and fluid visual charts. Built-in enterprise-grade multi-role RBAC access security."
+                    "year": "2025-2026",
+                    "name": "Sanad ERP",
+                    "role": "Software Architect & Solo Developer",
+                    "type": "Integrated Management SaaS for SMBs",
+                    "logo": "🏢",
+                    "description": "Independent design and development of a large-scale ERP ecosystem dedicated to digitizing small and medium businesses. Ultra-scalable modular architecture (Next.js, Node.js, PostgreSQL) integrating automated accounting, complex inventory management, customer relationship tracking (CRM), and dynamic financial report generation. Advanced data security and logical isolation of commercial flows."
                 },
                 {
-                    "year": "2024",
+                    "year": "2025",
                     "name": "LinkTrack",
-                    "role": "Open Source Platform",
+                    "role": "Open Source Creator",
                     "type": "Link Shortening & Analytics",
                     "logo": "🔗",
-                    "description": "Open source Personal Link Shortener platform for creating custom short links and analyzing engagement, demonstrating professional quality work. Technologies: Next.js 15, Supabase, shadcn/ui; responsive interface, secure authentication and optimized performance. Includes usage statistics, role-based access and subscription plans; deployed on linktrack.app.",
+                    "description": "Professional-grade open source SaaS platform for creating custom short links and real-time audience analytics. Polished UI/UX with secure authentication, role management (RBAC), geolocated click statistics, and premium subscription plan integration.",
                     "url": "https://linktrack.app"
                 },
                 {
                     "year": "2024",
-                    "name": "Tanad",
-                    "role": "E-commerce Platform",
-                    "type": "Online Marketplace",
-                    "logo": "🛒",
-                    "description": "Full-stack e-commerce platform built with Next.js and Node.js, featuring product management, user authentication, payment processing, and order tracking. Integrated with modern payment gateways and designed for scalability.",
-                    "url": "https://tanad.app"
-                },
-                {
-                    "year": "2024",
                     "name": "Pukla",
-                    "role": "Social Media Platform",
-                    "type": "Community & Social",
+                    "role": "Full Stack Developer",
+                    "type": "Social Network & Community",
                     "logo": "👥",
-                    "description": "Social media platform developed with React and Node.js, enabling users to connect, share content, and build communities. Features include real-time messaging, content sharing, and user profiles with advanced privacy controls.",
+                    "description": "Complete social network focused on community engagement. Implementation of real-time instant messaging (WebSockets), dynamic news feeds with relevance algorithms, and advanced privacy settings for user profiles.",
                     "url": "https://puk.la"
                 }
             ]
@@ -294,6 +306,14 @@
                     "url": "https://erp.admission.tn"
                 },
                 {
+                    "year": "2025-2026",
+                    "name": "Sanad ERP",
+                    "role": "Architecte Logiciel & Développeur Unique",
+                    "type": "SaaS de Gestion Intégrale pour PME",
+                    "logo": "🏢",
+                    "description": "Conception et développement autonome d'un écosystème ERP d'envergure dédié à la digitalisation des petites et moyennes entreprises. Architecture modulaire ultra-scalable (Next.js, Node.js, PostgreSQL) intégrant la comptabilité automatisée, la gestion des stocks complexes, le suivi de la relation client (CRM) et la génération de rapports financiers dynamiques. Sécurisation avancée des données et isolation logique des flux commerciaux."
+                },
+                {
                     "year": "2025",
                     "name": "LinkTrack",
                     "role": "Créateur Open Source",
@@ -310,15 +330,6 @@
                     "logo": "👥",
                     "description": "Réseau social complet axé sur l'engagement communautaire. Implémentation d'une messagerie instantanée en temps réel (WebSockets), de flux d'actualités dynamiques avec algorithme de pertinence, et de paramètres de confidentialité avancés pour les profils utilisateurs.",
                     "url": "https://puk.la"
-                },
-                {
-                    "year": "2024",
-                    "name": "laz.im",
-                    "role": "Développeur Full Stack",
-                    "type": "Utilitaire SaaS",
-                    "logo": "✂️",
-                    "description": "Service de gestion de liens et de redirection rapide intégrant un tableau de bord analytique complet. Développé avec une architecture performante (Next.js & MongoDB) garantissant des redirections à faible latence et un suivi précis de l'origine du trafic.",
-                    "url": "https://laz.im"
                 }
             ]
         },
