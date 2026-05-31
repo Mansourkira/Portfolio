@@ -23,7 +23,24 @@
                     "type": "Part-time",
                     "location": "Tunis, Tunisia / Remote",
                     "logo": "🏗️",
-                    "description": "Architected the Edifis Revendeurs Hub, a specialized B2B multi-tenant e-commerce engine serving 1,000+ active operators. Built dynamic tenant provisioning core, managed global network routing topology and edge caching via Cloudflare for 60+ live storefronts with sub-second latency. Engineered robust workers for automated real-time ERP (Sage) and marketplace (Ecwid) data synchronization. Refactored global state management to eliminate memory and local storage bottlenecks."
+                    "description": [
+                        {
+                            "label": "Multi-Tenant SaaS Architecture",
+                            "text": "Architected the Edifis Revendeurs Hub, a specialized B2B e-commerce engine serving 1,000+ active operators."
+                        },
+                        {
+                            "label": "Edge Routing & Performance",
+                            "text": "Managed global network topology and edge caching via Cloudflare for 60+ live storefronts with sub-second latency."
+                        },
+                        {
+                            "label": "Data Integration Workers",
+                            "text": "Engineered robust data pipelines for automated, real-time ERP (Sage) and marketplace (Ecwid) synchronization."
+                        },
+                        {
+                            "label": "State Optimization",
+                            "text": "Refactored global state management architecture to completely eliminate client-side memory and storage bottlenecks."
+                        }
+                    ]
                 },
                 {
                     "year": "2025-2026",
@@ -33,7 +50,24 @@
                     "type": "Full-time",
                     "location": "Tunis, Tunisia",
                     "logo": "🚀",
-                    "description": "Led the end-to-end design and implementation of a core full-featured ERP architecture using Next.js, Node.js, and PostgreSQL. Established unified state management standards, automated infrastructure via robust Docker containerization and CI/CD deployment pipelines. Managed development sprint cycles, task prioritization, code reviews, and conducted client-facing technical demonstrations."
+                    "description": [
+                        {
+                            "label": "Core ERP Architecture",
+                            "text": "Led the end-to-end design and implementation of a full-featured enterprise architecture using Next.js, Node.js, and PostgreSQL."
+                        },
+                        {
+                            "label": "DevOps Automation",
+                            "text": "Automated development infrastructure and environments via robust Docker containerization and unified CI/CD deployment pipelines."
+                        },
+                        {
+                            "label": "Team Leadership",
+                            "text": "Managed agile sprint cycles, task prioritization, and code reviews while mentoring a team of junior developers."
+                        },
+                        {
+                            "label": "Stakeholder Management",
+                            "text": "Conducted client-facing technical demonstrations and high-level project presentations."
+                        }
+                    ]
                 },
                 {
                     "year": "2024-2025",
@@ -43,7 +77,20 @@
                     "type": "Full-time",
                     "location": "La Marsa, Tunisia",
                     "logo": "💻",
-                    "description": "Technical leadership on robust backend systems using Node.js and scalable feature architectures. Developed consumer-facing frontends using Next.js and Redux for advanced state control. Automated deployment mechanisms and integrated continuous continuous integration pipelines via Docker."
+                    "description": [
+                        {
+                            "label": "Backend Leadership",
+                            "text": "Assumed technical ownership of core backend systems using Node.js to implement scalable feature architectures."
+                        },
+                        {
+                            "label": "Frontend State Control",
+                            "text": "Developed fluid consumer-facing web frontends leveraging Next.js and Redux for advanced state optimization."
+                        },
+                        {
+                            "label": "Deployment Automation",
+                            "text": "Built automated deployment mechanisms and continuous integration (CI/CD) pipelines utilizing Docker."
+                        }
+                    ]
                 },
                 {
                     "year": "2022-2024",
@@ -53,7 +100,20 @@
                     "type": "Remote",
                     "location": "Remote",
                     "logo": "🌐",
-                    "description": "Contributed to the high-performance delivery of 12+ parallel web projects. Built scalable architectures leveraging Next.js, Node.js (TypeScript), GraphQL APIs, Shadcn/ui, and Supabase backend services."
+                    "description": [
+                        {
+                            "label": "Ecosystem Delivery",
+                            "text": "Contributed to the high-performance engineering and successful delivery of 12+ parallel web applications."
+                        },
+                        {
+                            "label": "Scalable Architectures",
+                            "text": "Built and deployed decoupled feature layers using Next.js, Node.js (TypeScript), and GraphQL APIs."
+                        },
+                        {
+                            "label": "Modern Stack Integration",
+                            "text": "Leveraged modern component libraries (Shadcn/ui) and cloud backend-as-a-service layers (Supabase)."
+                        }
+                    ]
                 }
             ]
         },
@@ -226,34 +286,104 @@
             "title": "Expérience Professionnelle",
             "items": [
                 {
-                    "year": "2025 - Présent",
-                    "name": "Consultant Externe & Technical Lead Full-Stack",
-                    "company": "L'Univers Informatique / Admission",
-                    "role": "Technical Lead",
-                    "type": "Temps plein / Freelance",
+                    "year": "2026 - Présent",
+                    "name": "Ingénieur Logiciel & Architecte Infrastructure",
+                    "company": "Edifis Group",
+                    "role": "Ingénieur Full Stack & DevOps",
+                    "type": "Temps partiel",
+                    "location": "Tunis, Tunisie / Télétravail",
+                    "logo": "🏗️",
+                    "description": [
+                        {
+                            "label": "Architecture SaaS Multi-Tenant",
+                            "text": "Conception de l'Edifis Revendeurs Hub, moteur e-commerce B2B spécialisé desservant plus de 1 000 opérateurs actifs."
+                        },
+                        {
+                            "label": "Edge Routing & Performance",
+                            "text": "Gestion de la topologie réseau globale et du cache edge via Cloudflare pour plus de 60 vitrines en ligne avec une latence inférieure à la seconde."
+                        },
+                        {
+                            "label": "Workers d'Intégration de Données",
+                            "text": "Conception de pipelines de données robustes pour la synchronisation automatisée en temps réel ERP (Sage) et marketplace (Ecwid)."
+                        },
+                        {
+                            "label": "Optimisation d'État",
+                            "text": "Refactorisation de l'architecture de gestion d'état global pour éliminer complètement les goulots d'étranglement mémoire et stockage côté client."
+                        }
+                    ]
+                },
+                {
+                    "year": "2025 - 2026",
+                    "name": "Lead Technique (Développement ERP)",
+                    "company": "Admission",
+                    "role": "Lead Technique",
+                    "type": "Temps plein",
                     "location": "Tunis, Tunisie",
                     "logo": "🚀",
-                    "description": "Architecte et Tech Lead de l'écosystème applicatif global. Conception d'architectures ERP et SaaS multi-tenant à forte charge. Migration d'infrastructures vers des machines haute performance, configuration de serveurs dédiés et sécurisation réseau (Cloudflare). Encadrement d'une équipe de développement, revues de code, gestion des pipelines CI/CD complexes et interface technique directe avec la direction."
+                    "description": [
+                        {
+                            "label": "Architecture ERP Centrale",
+                            "text": "Pilotage de la conception et implémentation de bout en bout d'une architecture entreprise complète avec Next.js, Node.js et PostgreSQL."
+                        },
+                        {
+                            "label": "Automatisation DevOps",
+                            "text": "Automatisation de l'infrastructure et des environnements de développement via une containerisation Docker robuste et des pipelines CI/CD unifiés."
+                        },
+                        {
+                            "label": "Leadership d'Équipe",
+                            "text": "Gestion des cycles de sprint agile, priorisation des tâches et revues de code tout en encadrant une équipe de développeurs juniors."
+                        },
+                        {
+                            "label": "Gestion des Parties Prenantes",
+                            "text": "Réalisation de démonstrations techniques client et de présentations projet de haut niveau."
+                        }
+                    ]
                 },
                 {
                     "year": "2024 - 2025",
-                    "name": "Développeur Full Stack",
+                    "name": "Ingénieur Logiciel",
                     "company": "BeBouncy",
                     "role": "Développeur Full Stack",
                     "type": "Temps plein",
                     "location": "La Marsa, Tunisie",
                     "logo": "💻",
-                    "description": "Leadership technique sur le backend (Node.js) et implémentation de fonctionnalités métiers critiques. Développement d'interfaces frontend haut de gamme avec Next.js et gestion d'état complexe (Redux/Zustand). Industrialisation des déploiements via Docker et automatisation des processus CI/CD pour des applications à fort trafic."
+                    "description": [
+                        {
+                            "label": "Leadership Backend",
+                            "text": "Prise en charge technique des systèmes backend principaux en Node.js pour implémenter des architectures de fonctionnalités évolutives."
+                        },
+                        {
+                            "label": "Contrôle d'État Frontend",
+                            "text": "Développement de frontends web fluides avec Next.js et Redux pour une optimisation avancée de l'état."
+                        },
+                        {
+                            "label": "Automatisation du Déploiement",
+                            "text": "Mise en place de mécanismes de déploiement automatisés et de pipelines d'intégration continue (CI/CD) avec Docker."
+                        }
+                    ]
                 },
                 {
-                    "year": "2022 - 2025",
+                    "year": "2022 - 2024",
                     "name": "Développeur Full Stack",
                     "company": "Sikka Software",
                     "role": "Développeur Full Stack",
                     "type": "Télétravail",
-                    "location": "Tunis, Tunisie",
+                    "location": "Télétravail",
                     "logo": "🌐",
-                    "description": "Développement et livraison réussie de 12+ applications web complexes. Spécialisation dans les architectures découplées et scalables. Conception d'APIs performantes et de schémas de bases de données relationnelles optimisés pour des applications métiers et plateformes grand public."
+                    "description": [
+                        {
+                            "label": "Livraison d'Écosystème",
+                            "text": "Contribution à l'ingénierie haute performance et à la livraison réussie de plus de 12 applications web en parallèle."
+                        },
+                        {
+                            "label": "Architectures Évolutives",
+                            "text": "Construction et déploiement de couches fonctionnelles découplées avec Next.js, Node.js (TypeScript) et APIs GraphQL."
+                        },
+                        {
+                            "label": "Intégration Stack Moderne",
+                            "text": "Utilisation de bibliothèques de composants modernes (Shadcn/ui) et de backends cloud-as-a-service (Supabase)."
+                        }
+                    ]
                 }
             ]
         },

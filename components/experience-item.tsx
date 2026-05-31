@@ -2,6 +2,11 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 
+interface ExperienceHighlight {
+    label: string
+    text: string
+}
+
 interface ExperienceItemProps {
     year: string
     name: string
@@ -10,7 +15,7 @@ interface ExperienceItemProps {
     type: string
     location: string
     logo: string
-    description: string
+    description: ExperienceHighlight[]
 }
 
 export function ExperienceItem({
@@ -45,7 +50,17 @@ export function ExperienceItem({
                                 <p className="text-xs text-muted-foreground">{location}</p>
                             </div>
                         </div>
-                        <p className="text-sm text-muted-foreground leading-relaxed">{description}</p>
+                        <ul className="mt-4 space-y-2.5 list-none">
+                            {description.map((item, index) => (
+                                <li key={index} className="flex gap-2.5 text-sm leading-relaxed">
+                                    <span className="text-primary/70 mt-[0.45rem] shrink-0 text-[0.4rem]">●</span>
+                                    <span className="text-muted-foreground">
+                                        <strong className="font-semibold text-foreground">{item.label}:</strong>{" "}
+                                        {item.text}
+                                    </span>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             </CardContent>
