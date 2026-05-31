@@ -17,9 +17,8 @@ export const metadata: Metadata = {
   title: "Project Leader & Full Stack Engineer | 3+ Years Experience | MSc Student at ESTIAM Paris",
   description: "My personal portfolio showcasing projects and skills",
   icons: {
-    icon: "/bm.png",
-    shortcut: "/bm.png",
-    apple: "/bm.png",
+    icon: [{ url: "/bm.png", type: "image/png" }],
+    apple: [{ url: "/bm.png", type: "image/png" }],
   },
 };
 
