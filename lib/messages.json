@@ -127,7 +127,7 @@
                     "type": "Multi-Store E-Commerce",
                     "logo": "🏪",
                     "description": "Designed a multi-tenant architecture managing dynamic subdomain routing (Cloudflare DNS) for a network of 60+ reseller stores. Integrated heavy catalogs (6,000+ products), dynamic price masking ('On Request'), and transformed the classic purchase funnel into an automated quote request system via Email and WhatsApp.",
-                    "url": "https://www.edifis-group.com/"
+                    "url": "https://ekm.sanitaire.shop/en"
                 },
                 {
                     "year": "2026",
@@ -145,7 +145,7 @@
                     "type": "Logistics & Field Operations",
                     "logo": "📱",
                     "description": "Advanced Android application dedicated to field logistics and real-time warehouse inventory management. Direct interconnection with Microsoft SQL Server (T-SQL) infrastructure. Supports rapid QR/Barcode scanning, local offline synchronization, and performance optimization for processing massive data volumes.",
-                    "url": "https://beta.inventaire.admission.tn"
+                    "url": ""
                 },
                 {
                     "year": "2026",
@@ -171,7 +171,8 @@
                     "role": "Software Architect & Solo Developer",
                     "type": "Integrated Management SaaS for SMBs",
                     "logo": "🏢",
-                    "description": "Independent design and development of a large-scale ERP ecosystem dedicated to digitizing small and medium businesses. Ultra-scalable modular architecture (Next.js, Node.js, PostgreSQL) integrating automated accounting, complex inventory management, customer relationship tracking (CRM), and dynamic financial report generation. Advanced data security and logical isolation of commercial flows."
+                    "description": "Independent design and development of a large-scale ERP ecosystem dedicated to digitizing small and medium businesses. Ultra-scalable modular architecture (Next.js, Node.js, PostgreSQL) integrating automated accounting, complex inventory management, customer relationship tracking (CRM), and dynamic financial report generation. Advanced data security and logical isolation of commercial flows.",
+                    "url": "https://sanad.cloud"
                 },
                 {
                     "year": "2025",
@@ -198,7 +199,7 @@
             "items": [
                 {
                     "year": "2026-2028",
-                    "name": "Master's Degree in Computer Science",
+                    "name": "Master's Degree in Computer Science ( Web & Mobile Application Development )",
                     "institution": "ESTIAM Paris",
                     "location": "Paris, France",
                     "logo": "🌆"
@@ -242,7 +243,7 @@
                 },
                 {
                     "name": "LinkedIn",
-                    "url": "https://linkedin.com/in/ben-mansour-mansour-986873186",
+                    "url": "https://www.linkedin.com/in/benmansour-mansour-986873186",
                     "icon": "💼"
                 },
                 {
