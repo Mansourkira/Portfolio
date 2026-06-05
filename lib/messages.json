@@ -398,7 +398,7 @@
                     "type": "E-commerce Multi-Boutiques",
                     "logo": "🏪",
                     "description": "Conception d'une architecture multi-tenant gérant le routage dynamique de sous-domaines (Cloudflare DNS) pour un réseau de +60 boutiques revendeurs. Intégration de catalogues lourds (+6 000 produits), masquage dynamique des prix ('Sur demande') et transformation du tunnel d'achat classique en un système de demande de devis automatisé via Email et WhatsApp.",
-                    "url": "https://www.edifis-group.com/"
+                    "url": "https://www.ekm.sanitaire.shop/"
                 },
                 {
                     "year": "2026",
@@ -410,13 +410,12 @@
                     "url": "https://stk.edifis-group.com"
                 },
                 {
-                    "year": "2026",
+                    "year": "2025",
                     "name": "Application Mobile Inventaire",
                     "role": "Développeur Mobile Full-Stack",
                     "type": "Logistique & Terrain",
                     "logo": "📱",
-                    "description": "Application Android avancée dédiée à la logistique terrain et à la gestion d'inventaire d'entrepôt en temps réel. Interconnexion directe avec une infrastructure Microsoft SQL Server (T-SQL). Prise en charge du scan rapide de codes QR/Barres, gestion de la synchronisation locale en mode déconnecté et optimisation des performances pour le traitement de volumes de données massifs.",
-                    "url": "https://beta.inventaire.admission.tn"
+                    "description": "Application Android avancée dédiée à la logistique terrain et à la gestion d'inventaire d'entrepôt en temps réel. Interconnexion directe avec une infrastructure Microsoft SQL Server (T-SQL). Prise en charge du scan rapide de codes QR/Barres, gestion de la synchronisation locale en mode déconnecté et optimisation des performances pour le traitement de volumes de données massifs."
                 },
                 {
                     "year": "2026",
@@ -442,7 +441,8 @@
                     "role": "Architecte Logiciel & Développeur Unique",
                     "type": "SaaS de Gestion Intégrale pour PME",
                     "logo": "🏢",
-                    "description": "Conception et développement autonome d'un écosystème ERP d'envergure dédié à la digitalisation des petites et moyennes entreprises. Architecture modulaire ultra-scalable (Next.js, Node.js, PostgreSQL) intégrant la comptabilité automatisée, la gestion des stocks complexes, le suivi de la relation client (CRM) et la génération de rapports financiers dynamiques. Sécurisation avancée des données et isolation logique des flux commerciaux."
+                    "description": "Conception et développement autonome d'un écosystème ERP d'envergure dédié à la digitalisation des petites et moyennes entreprises. Architecture modulaire ultra-scalable (Next.js, Node.js, PostgreSQL) intégrant la comptabilité automatisée, la gestion des stocks complexes, le suivi de la relation client (CRM) et la génération de rapports financiers dynamiques. Sécurisation avancée des données et isolation logique des flux commerciaux.",
+                    "url": "https://sanad.cloud"
                 },
                 {
                     "year": "2025",
