@@ -127,7 +127,7 @@
                     "type": "Multi-Store E-Commerce",
                     "logo": "🏪",
                     "description": "Designed a multi-tenant architecture managing dynamic subdomain routing (Cloudflare DNS) for a network of 60+ reseller stores. Integrated heavy catalogs (6,000+ products), dynamic price masking ('On Request'), and transformed the classic purchase funnel into an automated quote request system via Email and WhatsApp.",
-                    "url": "https://ekm.sanitaire.shop/en"
+                    "url": "https://douche.sanitaire.shop/en"
                 },
                 {
                     "year": "2026",
