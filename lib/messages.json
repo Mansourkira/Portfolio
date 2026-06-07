@@ -398,7 +398,7 @@
                     "type": "E-commerce Multi-Boutiques",
                     "logo": "🏪",
                     "description": "Conception d'une architecture multi-tenant gérant le routage dynamique de sous-domaines (Cloudflare DNS) pour un réseau de +60 boutiques revendeurs. Intégration de catalogues lourds (+6 000 produits), masquage dynamique des prix ('Sur demande') et transformation du tunnel d'achat classique en un système de demande de devis automatisé via Email et WhatsApp.",
-                    "url": "https://www.ekm.sanitaire.shop/"
+                    "url": "https://douche.sanitaire.shop/"
                 },
                 {
                     "year": "2026",
