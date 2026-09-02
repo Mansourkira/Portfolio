@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Project Leader & Full Stack Engineer | 3+ Years Experience | MSc Student at ESTIAM Paris",
+  title: "Project Leader & Full Stack Engineer | 3+ Years Experience",
   description: "My personal portfolio showcasing projects and skills",
   icons: {
     icon: [{ url: "/bm.png", type: "image/png" }],

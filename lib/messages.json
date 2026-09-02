@@ -5,7 +5,7 @@
             "switch": "Switch to French"
         },
         "about": {
-            "title": "Project Leader & Full Stack Engineer | 3+ Years Experience | MSc Student at ESTIAM Paris",
+            "title": "Project Leader & Full Stack Engineer | 3+ Years Experience",
             "body": "Full-Stack Software Engineer & DevOps Architect with over 3 years of production-grade experience designing highly scalable web architectures. Specialized in the TypeScript ecosystem (React, Next.js, Node.js) and modern infrastructure management (Docker, Cloudflare, CI/CD pipelines). Proven track record of steering complex engineering projects, from provisioning B2B multi-tenant platforms to optimizing relational and non-relational database layers (PostgreSQL, MongoDB, Supabase). Immediately operational for on-site, hybrid, or remote roles.",
             "nameTag": "Project Leader & Full Stack Engineer",
             "location": "Tunis, El Aouina, 4230 Tunisia",
@@ -198,13 +198,6 @@
             "title": "Education",
             "items": [
                 {
-                    "year": "2026-2028",
-                    "name": "Master's Degree in Computer Science ( Web & Mobile Application Development )",
-                    "institution": "ESTIAM Paris",
-                    "location": "Paris, France",
-                    "logo": "🌆"
-                },
-                {
                     "year": "2020-2023",
                     "name": "Computer Engineering Diploma (TWIN)",
                     "institution": "Esprit",
@@ -276,7 +269,7 @@
             "switch": "Passer en anglais"
         },
         "about": {
-            "title": "Lead Technique & Ingénieur Full Stack | 3+ ans d'expérience | Étudiant MSc à ESTIAM Paris",
+            "title": "Lead Technique & Ingénieur Full Stack | 3+ ans d'expérience",
             "body": "Ingénieur Logiciel Full Stack & DevOps doté de plus de 3 ans d'expérience dans la conception d'architectures web hautement évolutives. Spécialisé sur l'écosystème TypeScript (React, Next.js, Node.js) et la gestion d'infrastructures modernes (Docker, Cloudflare, pipelines CI/CD). Habitué à piloter des projets complexes, du provisioning de plateformes multi-tenant (B2B) à l'optimisation de bases de données relationnelles et non relationnelles (PostgreSQL, MongoDB, Supabase). Opérationnel immédiatement, sur site ou en télétravail.",
             "nameTag": "Lead Technique & Ingénieur Full Stack",
             "location": "Tunis, El Aouina, 4230 Tunisie",
@@ -467,13 +460,6 @@
         "education": {
             "title": "Formation",
             "items": [
-                {
-                    "year": "2026 - Présent",
-                    "name": "Master (MSc) en Informatique",
-                    "institution": "ESTIAM Paris",
-                    "location": "Paris, France",
-                    "logo": "🗼"
-                },
                 {
                     "year": "2020 - 2023",
                     "name": "Diplôme d'Ingénieur en Informatique (TWIN)",
